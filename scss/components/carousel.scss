@@ -1,0 +1,95 @@
+@import '../variables.scss';
+
+.carousel-fullscreen {
+  position: relative;
+  width: 85vw;
+  max-width: 1000px;
+  height: 55vh;
+  overflow: hidden;
+  background-color: $color-slide-bg; // Ce fond ne couvrira plus l'image
+  margin: 0 auto;
+  border: 3px solid $white;
+  border-radius: 15px;
+
+  .slider-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.6s ease-in-out; // Transition plus rapide pour réduire le "lag" visuel
+    z-index: 1;
+
+    &.active {
+      opacity: 1;
+      visibility: visible;
+      z-index: 2; // Passe devant le fond et les autres slides
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(0.85); // Un peu moins sombre pour mieux voir l'image
+      display: block;
+      position: relative;
+    }
+
+    // Le dégradé noir en bas pour la lisibilité du texte
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 40%;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+      z-index: 3;
+      pointer-events: none;
+    }
+  }
+
+  .slide-caption {
+    position: absolute;
+    bottom: 30px;
+    left: 5%;
+    z-index: 10; // Toujours au-dessus de tout
+    color: $white;
+
+    h3 {
+      text-transform: uppercase;
+      border-left: 6px solid $color-caption-border;
+      font-size: 1.4rem;
+      padding-left: 15px;
+      margin: 0;
+    }
+  }
+
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    color: $white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    z-index: 20; // Boutons au-dessus des images
+    padding: 15px 10px;
+    font-size: 20px;
+    transition: all 0.3s;
+
+    &:hover { 
+      background: $color-caption-border; 
+      color: white;
+    }
+  }
+
+  .prev { left: 0; border-radius: 0 10px 10px 0; }
+  .next { right: 0; border-radius: 10px 0 0 10px; }
+}

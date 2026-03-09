@@ -1,0 +1,23 @@
+@import '../variables.scss';
+.social-media-page {
+  img {
+    height: 200px;
+    width: 320px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+  }
+
+  .wrapper-social-media {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-top: 1rem;
+    max-width: 1000px;
+  }
+
+  a {
+    color: #000000;
+  }
+}

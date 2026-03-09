@@ -1,0 +1,110 @@
+@use '../mixins.scss';
+@import '../variables.scss';
+
+
+.contact-page {
+   background: $bg-dark;
+  padding: 60px 30px;
+
+  .contact-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+  h1 {
+   
+    @include mixins.h1-style;
+    
+  }
+
+  p {
+    color: $text-grey;
+  }
+  }
+
+
+
+  }
+  
+  
+
+  
+
+
+.contact-container {
+
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form {
+
+  padding: 30px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+  color: white;
+  font-family: Arial, sans-serif;
+
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.contact-form input, 
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #4a5549;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  box-sizing: border-box; 
+}
+
+.contact-form input::placeholder, 
+.contact-form textarea::placeholder {
+  color: #7a8279;
+}
+
+.contact-form input:focus, 
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #8b7355;
+}
+
+
+.contact-form textarea {
+  height: 150px;
+  resize: vertical;
+  margin-top: 15px;
+}
+
+
+.contact-form button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 15px;
+   background-color: $accent-gold;
+  color: white;
+  border: none;
+  border-radius: 4px;
+ font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+
+
+
+.contact-form button:hover {
+  opacity: 0.9; 
+}

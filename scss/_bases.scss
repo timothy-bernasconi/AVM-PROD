@@ -1,0 +1,56 @@
+
+@import 'variables.scss';
+
+.us-page, .history-page,
+.vehicules-page, 
+.meetings-page, 
+.association-page, .social-media-page {
+  padding: 5rem 2rem; 
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  h2 {
+    font-size: 3rem;
+    margin-top: 0;        
+    margin-bottom: 1.5rem; 
+    border-bottom: 3px solid $accent-gold;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  span, .intro-text {
+    text-align: center;
+    display: block;
+    margin-bottom: 2rem;
+    color: $text-grey;
+  }
+}
+
+.button-vehicule {
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $white;
+    background: linear-gradient(135deg, $accent-gold, lighten($accent-gold, 10%));
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+      background: linear-gradient(135deg, lighten($accent-gold, 5%), lighten($accent-gold, 20%));
+    }
+
+    &:active {
+      transform: translateY(-1px);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+  }

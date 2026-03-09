@@ -1,0 +1,115 @@
+@import 'variables.scss';
+
+// --- Responsive Header ---
+@media (max-width: 991px) {
+  header .container {
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    text-align: center;
+  }
+
+  .list ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .social-media ul {
+    justify-content: center;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 990px) {
+  .container {
+    margin-top: -4rem;
+  }
+
+  .menu-toggle {
+    display: block;
+    position: relative;
+    top: -2rem;
+    font-size: 3rem;
+  }
+
+  .header-logo img {
+    visibility: hidden;
+  }
+
+  .list,
+  .social-media {
+    display: none; 
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+
+    &.open {
+      display: block; 
+    }
+  }
+
+  .list ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .social-media ul {
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+// --- Responsive général des pages ---
+@media (max-width: 1024px) {
+  .home-page {
+    h1 { font-size: 4rem; }
+    .container { left: 0; align-items: center; text-align: center; }
+  }
+
+  .us-page, .history-page, .vehicules-page, .meetings-page, .association-page, .social-media-page {
+    padding: 4rem 1.5rem;
+
+    .container {
+      flex-direction: column; 
+      align-items: center;
+      gap: 30px;
+    }
+
+    h2 { font-size: 2.5rem; }
+  }
+
+  .us-page .container .icone, 
+  .history-page,
+  .vehicules-page .card, 
+  .meetings-page .card,
+  .association-page .box .social-media { 
+    width: 100%; 
+    max-width: 500px; 
+    flex: none; 
+  }
+
+  .wrapper-social-media {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .us-page, .history-page, .vehicules-page, .meetings-page, .association-page, .social-media-page {
+    padding: 3rem 1rem;
+
+    h2 { font-size: 2rem; }
+  }
+
+  .home-page {
+    min-height: 60vh;
+    h1 { font-size: 2.2rem; }
+    p { font-size: 1rem; }
+  }
+
+  .buttons { 
+    flex-direction: column; 
+    width: 100%; 
+  }
+  .full, .empty { width: 100%; }
+
+  .carousel-fullscreen { height: 50vh; }
+}

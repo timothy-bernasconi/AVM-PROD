@@ -1,0 +1,526 @@
+[
+    
+    {
+    "id": 1,
+    "titre": "Vallorbe 2013",
+    "date" : 2013,
+    "resume":
+     "Nous avons répondu présents à l'invitation de nos voisins suisses pour ce superbe rassemblement militaire. Des beaux véhicules, des balades, du soleil et une belle visite des grottes.",
+     "cover" : "/assets/archives/vallorbe-2013/vallorbe-ballade.webp",
+     "images" :  
+      [
+        "/assets/archives/vallorbe-2013/vallorbe-ballade.webp",
+        "/assets/archives/vallorbe-2013/vallorbe-ballade-2.webp",
+        "/assets/archives/vallorbe-2013/vallorbe-convoit.webp",
+        "/assets/archives/vallorbe-2013/vallorbe-groupe.webp",
+        "/assets/archives/vallorbe-2013/vallorbe-jeep.webp",
+        "/assets/archives/vallorbe-2013/vallorbe-jeep-2.webp",
+         "/assets/archives/vallorbe-2013/vallorbe-grotte-1.webp",
+        "/assets/archives/vallorbe-2013/vallorbe-grotte-2.webp"
+      
+    ]
+  },
+
+  {
+    "id" :2,
+    "titre" :"2005: 19e Foire à la Jeep a Taninges",
+    "type" : "Divers",
+    "date" : 2005,
+    "resume" :"Le dernier rassemblement avant la création officielle de l.'A.V.M: La Foire à la Jeep de Taninges.",
+    "cover" : "/assets/archives/tanninges-2005/tanninges-gmc-1.webp",
+     "images" : [
+      
+      "/assets/archives/tanninges-2005/tanninges-gmc-1.webp",
+      "/assets/archives/tanninges-2005/tanninges-gmc-2.webp",
+      "/assets/archives/tanninges-2005/tanninges-jeep-arm-1.webp",
+      "/assets/archives/tanninges-2005/tanninges-jeep-mitrailleuse.webp",
+      "/assets/archives/tanninges-2005/tanninges-dodge.webp"
+
+     ]
+  },
+
+   {
+    "id" :3,
+    "titre" :"8 mai 2006: Saint Clair du Rhône",
+    "type" :"Évènement Militaire",
+    "date" :2006,
+    "resume" :"Peu-être un peu trop occupés à sympathiser avec l'association, ou autour des véhicules, Jeeps, dodges et les stands nous ne pouvons vous présenter que quelques photos...",
+    "cover" : "/assets/archives/saint-clair-du-rhone-2006/st-clair-command-car.webp",
+     "images" : [
+      "/assets/archives/saint-clair-du-rhone-2006/st-clair-command-car.webp",
+      "/assets/archives/saint-clair-du-rhone-2006/st-clair-gmc-w.webp",
+      "/assets/archives/saint-clair-du-rhone-2006/st-clair-gmc-1.webp",
+      "/assets/archives/saint-clair-du-rhone-2006/st-clair-gmc-2.webp",
+      "/assets/archives/saint-clair-du-rhone-2006/st-clair-gmc-jeep.webp",
+      "/assets/archives/saint-clair-du-rhone-2006/st-clair-radio-weasel.webp",
+      "/assets/archives/saint-clair-du-rhone-2006/st-clair-weasel.webp"
+
+     ]
+  },
+
+   {
+    "id" :4,
+    "titre" :"Journée Américaine à Doussard 2010",
+    "type" : "Divers",
+    "date" : 2010,
+    "resume" :"Les journées américaines font parties des manifestations incontournables de notre calendrier. Ce rassemblement regroupe tous les genres de véhicules américains, des vieilles voiture en passant pas les grandes sportive ou encore certains camions américains. Cette année le camp militaire s'est considérablement agrandit avec la venue d'un groupe venu de Suisse.",
+    "cover" : "/assets/archives/doussard-2011/doussard-camp-1.webp",
+
+      "images" :  [
+        "/assets/archives/doussard-2011/doussard-camp-1.webp",
+        "/assets/archives/doussard-2011/doussard-camp-2.webp",
+        "/assets/archives/doussard-2011/doussard-camp-3.webp",
+        "/assets/archives/doussard-2011/doussard-camion-medical.webp",
+        "/assets/archives/doussard-2011/doussard-camions-1.webp",
+        "/assets/archives/doussard-2011/doussard-camions-2.webp",
+        "/assets/archives/doussard-2011/doussard-camions-3.webp",
+        "/assets/archives/doussard-2011/doussard-jeep-1.webp",
+        "/assets/archives/doussard-2011/doussard-jeep-2.webp",
+        "/assets/archives/doussard-2011/doussard-jeep-jaune.webp",
+        "/assets/archives/doussard-2011/doussard-jeep-bleu.webp",
+        "/assets/archives/doussard-2011/doussard-motos.webp",
+        "/assets/archives/doussard-2011/doussard-remorque.webp"
+        
+      
+    ]
+  },
+
+   {
+    "id" :5,
+    "titre" :"La R'biole, 9 mai 2010",
+    "type" :"Divers",
+    "date" : 2010,
+    "resume" :"Voila quelques photos de cette superbe journée à la fête de la R'biole. Un accueil comme on l'aime dans nos pays de Savoie, du public, des véhicules, de l'ambiance...",
+    "cover" : "/assets/archives/rbiole-2010/rbiole-avm.webp",
+
+      "images" : [
+        "/assets/archives/rbiole-2010/rbiole-avm.webp",
+        "/assets/archives/rbiole-2010/rbiole-camp.webp",
+        "/assets/archives/rbiole-2010/rbiole-jeep-1.webp",
+        "/assets/archives/rbiole-2010/rbiole-jeep-2.webp",
+        "/assets/archives/rbiole-2010/rbiole-jeep-3.webp",
+        "/assets/archives/rbiole-2010/rbiole-jeep-4.webp",
+        "/assets/archives/rbiole-2010/rbiole-jeep-5.webp",
+        "/assets/archives/rbiole-2010/rbiole-jeep-6.webp",
+        "/assets/archives/rbiole-2010/rbiole-remorque-avm.webp",
+        "/assets/archives/rbiole-2010/rbiole-voitures.webp"
+
+      ]
+  },
+
+   {
+    "id" : 6,
+    "titre" : "Fête de la Jeep à Manigod 2012",
+    "type" :"Divers",
+    "date" : 2012,
+    "resume" : "Maintenant un grand classique de notre calendrier, nous avons une fois de plus reconduit la fête de la Jeep au col de la Croix Fry pour le bonheur de pas de Jeep qui ne demande qu'à sortir!",
+    "cover" : "/assets/archives/manigod-2012/manigod-ballade-1.webp",
+
+    "images" : [
+        "/assets/archives/manigod-2012/manigod-ballade-1.webp",
+        "/assets/archives/manigod-2012/manigod-ballade-2.webp",
+        "/assets/archives/manigod-2012/manigod-ballade-3.webp",
+        "/assets/archives/manigod-2012/manigod-ballade-4.webp",
+        "/assets/archives/manigod-2012/manigod-camion.webp",
+        "/assets/archives/manigod-2012/manigod-camp-1.webp",
+        "/assets/archives/manigod-2012/manigod-camp-2.webp",
+        "/assets/archives/manigod-2012/manigod-camp-3.webp",
+        "/assets/archives/manigod-2012/manigod-drapeau-americain.webp",
+        "/assets/archives/manigod-2012/manigod-jeep-1.webp",
+        "/assets/archives/manigod-2012/manigod-jeep-2.webp",
+        "/assets/archives/manigod-2012/manigod-jeep-3.webp",
+        "/assets/archives/manigod-2012/manigod-jeep-4.webp",
+        "/assets/archives/manigod-2012/manigod-jeep-5.webp",
+        "/assets/archives/manigod-2012/manigod-jeep-6.webp",
+        "/assets/archives/manigod-2012/manigod-jeep-7.webp",
+        "/assets/archives/manigod-2012/manigod-membres-camoufles.webp",
+        "/assets/archives/manigod-2012/manigod-mobylette.webp",
+         "/assets/archives/manigod-2012/manigod-soldats.webp"        
+
+    ]
+  },
+
+
+  {
+    "id" : 7,
+    "titre" : "La locomotion en fête 2011",
+    "type" :"Divers",
+    "date" : 2011,
+    "resume" : "Pour notre sortie annuelle de l'association nous avons loué un minibus pour nous rendre à la locomotion en fête à Cerny près de Paris. Un week-end très agréable avec un joli parc de véhicules militaires pour notre grand plaisir mais aussi des voitures, camions, motos, avions, engins de chantiers qui sont aujourd'hui entrés dans les rangs des véhicules de collection. La suite en images vous en dira bien d'avantage.",
+    "cover" :  "/assets/archives/locomotion-en-fete-2011/locomotion-fete-locomotive-1.webp",
+
+    "images" : [
+
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-locomotive-1.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-avion-1.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-avion-2.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-avion-3.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-avion-4.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-avion-5.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-avion-6.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-avion-7.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-bus-1.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-bus-2.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-camion-1.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-camion-2.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-camion-3.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-camion-medic-1.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-camp-1.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-camp-2.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-camp-3.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-camp-4.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-interieur-avion-1.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-jeep-1.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-jeep-2.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-moto-1.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-poussiere.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-scooter-1.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-tank-1.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-tank-2.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-tank-3.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-tank-4.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-tracteurs-1.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-tracteurs-2.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-vehicule-militaire-1.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-vehicule-militaire-2.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-vehicule-militaire-3.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-vehicule-militaire-4.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-vehicule-militaire-5.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-vehicule-militaire-6.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-voiture-1.webp",
+        "/assets/archives/locomotion-en-fete-2011/locomotion-fete-voiture-2.webp"
+
+    ]
+  },
+
+  {
+     "id" : 8,
+    "titre" : "Libération de Cannes 2008",
+    "type" :"Divers",
+    "date" : 2008,
+    "resume" : "La semaine après les commémorations de Cavalaire débutaient celles de Cannes pour un week-end de deux jours chargés de beaux véhicules! c'est dans la Jeep blindée que nous avons poussés l'expedition jusque la, la suite en image...",
+    "cover" : "/assets/archives/cannes-2008/cannes-avm.webp",
+    
+    "images" : 
+    
+    [
+      "/assets/archives/cannes-2008/cannes-avm.webp",
+      "/assets/archives/cannes-2008/cannes-camion.webp",
+      "/assets/archives/cannes-2008/cannes-camp.webp",
+      "/assets/archives/cannes-2008/cannes-defile-1.webp",
+      "/assets/archives/cannes-2008/cannes-defile-2.webp",
+      "/assets/archives/cannes-2008/cannes-defile-3.webp",
+      "/assets/archives/cannes-2008/cannes-defile-4.webp",
+      "/assets/archives/cannes-2008/cannes-tank-1.webp",
+      "/assets/archives/cannes-2008/cannes-tank-2.webp",
+      "/assets/archives/cannes-2008/cannes-tank-3.webp",
+      "/assets/archives/cannes-2008/cannes-tank-4.webp",
+      "/assets/archives/cannes-2008/cannes-vehicules-militaires.webp",
+      "/assets/archives/cannes-2008/cannes-voiture-ffi.webp",
+      "/assets/archives/cannes-2008/cannes-voitures-1.webp",
+      "/assets/archives/cannes-2008/cannes-voitures-2.webp"
+
+    ]
+  },
+
+  {
+     "id" : 9,
+    "titre" : "Cavalaire 2006.",
+    "type" :"Divers",
+    "date" : 2006,
+    "resume" : "Etant une jeune amicale, nous n'avons encore pas les moyens de nous déplacer dans toute la France avec nos véhicules. Nous participons néanmoins à divers rassemblements en tant que 'touristes' pour soutenir grâce à notre présence nos amis organisateurs. Ainsi,en cette année 2006, nous nous sommes rendus à Cavalaire pour le 15 aout, commémoration du débarquement en Provence.  Voici quelques photos des véhicules du groupe Provence44.Des magnifiques véhicules étaient présents dans des états remarquables!",
+    "cover" : "/assets/archives/cavalaire-2006/cavalaire-u23.webp",
+     
+    "images" : 
+    
+    [
+      "/assets/archives/cavalaire-2006/cavalaire-u23.webp",
+      "/assets/archives/cavalaire-2006/cavalaire-105mm.webp",
+      "/assets/archives/cavalaire-2006/cavalaire-bofor.webp",
+      "/assets/archives/cavalaire-2006/cavalaire-gmc.webp",
+      "/assets/archives/cavalaire-2006/cavalaire-gmc-duck.webp",
+      "/assets/archives/cavalaire-2006/cavalaire-half-track-dca.webp",
+      "/assets/archives/cavalaire-2006/cavalaire-half-track-infirmier.webp",
+       "/assets/archives/cavalaire-2006/cavalaire-infirmiere.webp",
+       "/assets/archives/cavalaire-2006/cavalaire-camion.webp",
+       "/assets/archives/cavalaire-2006/cavalaire-uniformes.webp"
+
+
+    ]
+  },
+
+  {
+     "id" : 10,
+    "titre" : "Cavalaire 2008.",
+    "type" :"Divers",
+    "date" : 2008,
+    "resume" : "Cette année encore nous avons participés aux commémorations du débarquement de Provence auprès du groupe Provence44 du 12 au17 aout. Ainsi, nous avons gagné la côte avec une jeep et une jeep blindée et onze de nos membres.",
+    "cover" : "/assets/archives/cavalaire-2008/cavalaire-avm-1.webp",
+    
+    "images" : 
+    
+    [
+      "/assets/archives/cavalaire-2008/cavalaire-avm-1.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-avm-2.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-avm-3.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-avm-4.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-avm-5.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-avm-6.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-avm-france.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-ballade-1.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-ballade-2.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-ballade-3.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-camp-1.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-camp-2.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-camp-3.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-camp-4.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-camp-5.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-camp-6.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-camp-7.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-convoit-1.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-convoit-2.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-defile-1.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-defile-2.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-defile-3.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-drapeau.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-jeep-1.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-jeep-2.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-jeunes-1.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-jeunes-2.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-truck.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-vehicules-militaire-1.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-vehicules-militaire-2.webp",
+      "/assets/archives/cavalaire-2008/cavalaire-vehicules-militaire-3.webp"
+
+   
+
+
+    ]
+  }, 
+
+  {
+   "id" : 11,
+    "titre" : "70e anniversaire du débarquement en Normandie",
+    "type" :"Évènement Militaire",
+    "date" : 2014,
+    "resume" : "12 jours. C’est la durée du débarquement en Normandie de l’AVM74, Amicale des Véhicules Militaires de Haute-Savoie. Ayant des souvenirs incroyables du 65e anniversaire du débarquement il y a 5 ans, toute l’équipe souhaitait participer au 70e anniversaire. Ainsi C’est une quinzaine de membres qui s’est rendue en Normandie du 31 mai au 11 juin.",
+    
+    "texte" : "Nous avions préparé minutieusement notre « drop zone » pendant plusieurs mois (terme anglais utilisé par les parachutistes pour désigner la zone de saut). Nous avons monté notre campement militaire dans une ancienne ferme Normande à Brucheville dans le secteur de Sainte-Mère Eglise, avec du matériel d’époque, comprenant de nombreuses tentes mais aussi des sanitaires, la tente d’intendance (cuisine et repas), le mat pour hisser les drapeaux… Mais que serions-nous sans nos véhicules d’époque? C’est ainsi que 7 véhicules nous ont rejoint à l’aide de transporteurs. 1 Dodge et 2 Jeep étaient chargés dans chacun des 2 camions ainsi qu’une Jeep supplémentaire et un canon de 37mm sur des remorques. Le groupe était alors opérationnel !Nous avons donc participé aux commémorations organisées dans toute la région. Le programme était intense et chargé : visites de musées, de lieux historiques, lieux de mémoire, rencontre avec des vétérans de plusieurs nationalités, rencontres entre collectionneurs, bourses de matériel, rassemblements à thème de matériel comme le record du monde enregistré à Carentan avec la mise à l’eau d’une vingtaine de Jeep amphibies.Pour nous, passionnés de cette période particulière de l’histoire, c’est un moyen de comprendre ce qu’il s’est vraiment passé. Il existe de nombreux livres, films, musées qui retracent cette histoire mais rien n’est plus parlant que le ronronnement des moteurs des avions d’époque larguant des parachutistes en passant sur les villages. De même, il était possible de sentir la frénésie de la libération lorsqu’une colonne de véhicules blindés (tanks, semi-chenillés, automitrailleuses,…) entrait dans le bourg de Sainte-Marie du Mont, connu pour sa belle église autour de laquelle un campement militaire avait été recréé. Plus parlant encore, croiser des vétérans, avoisinant tous les 90 ans, portant fièrement leurs médailles, ayant fait parfois le voyage depuis les Etats-Unis. Pouvoir les remercier, leur parler, connaitre leur histoire et voir à quel point ce débarquement les a marqués est toujours un moment fort en émotions.Nous avons aussi pu aller rouler sur les plages du débarquement. Là encore nos véhicules semblaient vraiment à leur place, dans le décor qui doit les accompagner, comme un retour à la case départ 70 ans plus tard.",
+    "cover" : "/assets/rassemblements/normandie-2014/avm-membres.webp",
+     "images" : [
+
+        "/assets/rassemblements/normandie-2014/avm-membres.webp",
+         "/assets/rassemblements/normandie-2014/avions.webp",
+         "/assets/rassemblements/normandie-2014/avions-2.webp",
+         "/assets/rassemblements/normandie-2014/barque-debarquement-1.webp",
+         "/assets/rassemblements/normandie-2014/barque-debarquement-2.webp",
+          "/assets/rassemblements/normandie-2014/camion-jeep.webp",
+          "/assets/rassemblements/normandie-2014/camion-militaire.webp",
+           "/assets/rassemblements/normandie-2014/camp-militaire.webp",
+            "/assets/rassemblements/normandie-2014/jeep-plage.webp",
+            "/assets/rassemblements/normandie-2014/jeep-remorque.webp",
+            "/assets/rassemblements/normandie-2014/jeeps-militaire.webp",
+            "/assets/rassemblements/normandie-2014/mannequins-militaire.webp",
+            "/assets/rassemblements/normandie-2014/planneur-militaire.webp",
+            "/assets/rassemblements/normandie-2014/tank-2.webp",
+            "/assets/rassemblements/normandie-2014/tank-militaire.webp",
+            "/assets/rassemblements/normandie-2014/tenues-civiles.webp",
+            "/assets/rassemblements/normandie-2014/vehicules-militaires-plage.webp"
+              
+
+      
+     ]
+
+    },
+
+     {
+    "id" : 12,
+    "titre" : "1ère Fête des Véhicules Militaires 2006 à Veigy-Foncenex.",
+    "type" : "Évènement Militaire",
+    "date" : 2006,
+    "resume" : "Le premier week-end du mois de septembre l'A.V.M a donc organisée sa première fête des véhicules militaires, à Veigy-Foncenex, en Haute-Savoie aux portes de Genève,",
+    "texte" : "l'un des plus grands rassemblements de Haute-Savoie pour tous ces passionnés. Durant ces deux jours le programme était varié, expositions de véhicules, camps militaire, apéritif concert, parcours du combattant, balançoire de trial pour jeep, sans oublier les balades dans les villes et villages alentours ainsi que la balade nocturne en black-out dans les bois du village le samedi soir...Nous avons estimé à plus d'une cinquantaine de véhicules ayant participés à notre fête. Pour commencer, petit aperçu de notre camps pour le week-end. Beaucoup de magnifiques jeep on répondues à l'appel! Mais il y avait aussi GMC,Dodge... Les deux copains!. Une des vedettes: cette weasel en superbe état ayant ses chenilles d'origines de 1943!. On continue avec ce Cuchman, moto parachutée des troupes aéroportées lui aussi dans un bel état ! Une Harley, superbement restaurée et très complète avec son Thompson. Autre guerre mais véhicule militaire tout de même ce réo ayant participé à différents conflits notemment à la guerre du Viêt-nam. Il nous venait du centre de la France! Curiosité venant du village, un rouleau compresseur Marshall de 1922 rivalisant avec la mécanique d'un GMC de l'A.V.M! Patrouille cycliste nocturne!! Quelques photos des balades convoi pendant lesquels une trentaine de véhicules ont sillonné les routes dans les villages alentours...! Des véhicules mais aussi des uniformes!! Quelques surplus militaires étaient eux aussi présents. Certains ont à peine 18ans et sont déja maitres de leur Jeep!! C'est ici que l'on reconnait les vrais soldats!! :-) Et enfin, le groupe de bénévoles sans qui cette fête n'aurai pu exister! Tous se sont donnés au maximum pour le bonheur et la joie de tout le monde!",
+
+    "cover" : "/assets/archives/veigy-2006/camp2.webp",
+
+    "images" : [
+      "/assets/archives/veigy-2006/butte-camp.webp",
+      "/assets/archives/veigy-2006/camp2.webp",
+      "/assets/archives/veigy-2006/camp-dodge.webp",
+      "/assets/archives/veigy-2006/convoi-1.webp",
+      "/assets/archives/veigy-2006/convoi-3.webp",
+      "/assets/archives/veigy-2006/convoi-4.webp",
+      "/assets/archives/veigy-2006/coup-de-coeur.webp",
+      "/assets/archives/veigy-2006/cuchman.webp",
+      "/assets/archives/veigy-2006/cuchman-2.webp",
+      "/assets/archives/veigy-2006/cylindre-gmc.webp",
+      "/assets/archives/veigy-2006/dodge.webp",
+      "/assets/archives/veigy-2006/gmc.webp",
+      "/assets/archives/veigy-2006/gmc4.webp",
+      "/assets/archives/veigy-2006/goellette.webp",
+      "/assets/archives/veigy-2006/harley-moto.webp",
+      "/assets/archives/veigy-2006/jeep-moto.webp",
+      "/assets/archives/veigy-2006/jeeps.webp",
+      "/assets/archives/veigy-2006/jeeps-2.webp",
+      "/assets/archives/veigy-2006/jeeps-et-sa-tente.webp",
+      "/assets/archives/veigy-2006/moto.webp",
+      "/assets/archives/veigy-2006/parcours-combat.webp",
+      "/assets/archives/veigy-2006/patrouille-cycliste-nocturne.webp",
+      "/assets/archives/veigy-2006/sam-balancoire.webp",
+      "/assets/archives/veigy-2006/st-jean-jeep-soldat.webp",
+      "/assets/archives/veigy-2006/surplus-militaire.webp",
+      "/assets/archives/veigy-2006/tente-jeep.webp",
+      "/assets/archives/veigy-2006/tentes-sam.webp",
+      "/assets/archives/veigy-2006/thib-balancoire.webp",
+      "/assets/archives/veigy-2006/toutes-jeep.webp",
+      "/assets/archives/veigy-2006/traction-dodge.webp",
+      "/assets/archives/veigy-2006/vehicule-dodge.webp",
+      "/assets/archives/veigy-2006/vehicule-gmc.webp",
+      "/assets/archives/veigy-2006/vehicule-weasel.webp",
+      "/assets/archives/veigy-2006/weasel.webp",
+      "/assets/archives/veigy-2006/weasel-cuchman.webp"
+
+      
+    ]
+
+  },
+
+  {
+    "id" :13,
+    "titre" :"3e Fête des Véhicules Militaires à Veigy 2008",
+    "type" : "Évènement Militaire",
+    "date" : 2008,
+    "resume" : " Notre amicale a organisé sa 3ème fête des Véhicules Militaires à Veigy Foncenex les 13 et 14 septembre derniers.",
+    "texte" :"Malgré le mauvais temps, le GMC  du clan de Rumilly, un WEASEL M29, un CUSHMAN, une kubelwagen, des Dodges et des Jeeps, ainsi que les véhicules de l’AVM 74 (la jeep SCOUT CAR, le WEASEL M29C, un hummer, les jeeps équipées ambulance et autres) et pleins d’autres avaient fait le déplacement L’association AAAAS (Association des Amis de l’Auto Ancienne de Savoie) nous avait rendu une petite visite.  C'était mal parti! Un campement Militaire a investi les lieux avec une dizaine de tentes (marabout, Small, commande poste, individuelle…) et leurs équipements, et l’AVM avait préparé un petit musée sous sa tente.Suite à un empêchement de dernière minute, le groupe de Cavalaire n’avait pas pu nous rejoindre mais un autre groupe d’Auvergne était venu avec un Autocar et une Harley Davidson. Le week-end a été accentué par l’intervention du club de maquettistes de Lyon avec leurs reproductions parfaites télécommandées des engins présents et par l’arrivée d’un Hummer H3 limousine de 9 mètres de long ! La bourse militaire a fait beaucoup d’heureux. Les balades empruntant de petites routes de campagne ont été appréciées par les plus courageux, et « la soupe du trouffion » suivie du bal ont réchauffés les participants ! A l'année prochaine! ",
+    "cover" : "/assets/rassemblements/truc.jpg"
+  },
+
+   {
+    "id" :14,
+    "titre" :"2e Fête des Véhicules Militaires 2007 à Veigy-Foncenex.",
+    "type" : "Évènement Militaire",
+    "date" : 2012,
+    "resume" :"Suite aux résultats encourageants de notre précédente éditions, nous avons décidé cette année encore d'organiser la 2e Fête des Véhicules Militaires. ",
+    "texte" :"Ainsi, le week-end du 8 et 9 septembre, nous nous sommes retrouvés avec de nombreux passionnés et collectionneurs afin de passer un moment tous ensemble.L'accueil des participants qui se déplaçaient de loin a débuté le vendredi. Après la mise en place sur le site des différentes activités, stands, campement... nous avons emmener nos invités pour une petite balade jusqu'à Yvoire, une cité médievale. Le lendemain, débutait la fête! Au programme: ventes de pièces, habits, matériel, équipements, balades convoi, intervention de batteries fanfare, tombola, et biensur la sortie Black-out...Bienvenue visiteurs! Sur votre droite, le campement:Le dernier achat de notre amicale, datée 1945, qui nous a servi de buvette! Parmis les animations proposée, des minaitures téléguidées, un rodéo,trempoline,... Le groupe que nous avions rencontré à la bourse de Cognin ( voir http://avm74.wifeo.com/cognin-2007.php ) a bien accepté de venir nous faire profiter de leurs talents La batterie fanfare de d'AmbillySoudain, qu'entendons nous??? C'est bien le vrombissement d'une mécanique d'époque mais où? Il fallait lever les yeux!! Place maintenant aux véhicules: Voila les deux copines du week-end! Avec un petit terrain de gravier à dispositions, ces deux véhicules n'ont pas chomés! De nombreux bâptemes, des découvertes pour certains, de vieux souvenirs pour d'autres...Le GMC duckw du groupe Provence 44 qui nous avait fait l'honneur de venir de Cavalaire! Une occasion très rare pour les deux groupes qui mettent en commun leur bijoux! Jeep SAS de Rumilly et leur Diamond.Ne crainiez rien nous ne nous sommes pas fait attaquer mais c'est tout simplement un petit problème mécanique! Difficile de réunir tout le monde nous avons quand même réussi à faire quelques photos...Des membres des groupes présents: à droite 3 de nos membres,au fond des membres de Provence 44, au centre 4 membres de tempete sur les Alpes, à gauche un membre du MVCG de Lyon. Notre amicale sur nos véhicules hélas pas au grand complet, pendant que certains posent, il en faut qui travaillent! :)Le grand-père de trois de nos membre, ancien maquisard, toujours là pour nous soutenir!! Un manque de photo impardonnable: un grna dmerci à tous les bénévoles qui ont contribués et donnés de leur temps pour ce superbe week-end, merci aux différents commerces qui nous ont fournit lots, marchandises, actions commerciales, publicités... Et à l'année prochaine!!",
+      "cover" : "/assets/rassemblements/tr.jpg"
+  },
+
+ 
+    {
+    "id" :15,
+    "titre" :"Commémorations du 8 mai à Thiers en Auvergne.",
+    "type" :"Évènement Militaire",
+    "date" :2009 ,
+    "resume" :"Notre amicale fut invitée par l'ACVMA (leurs site) pour les festivités du 8mai, anniversaire de la libération.Ainsi quatres de nos membres ont fait le déplacement pour répondre présents à cette invitation.",
+   "texte" :"De nombreuses balades en convois dans les petits village des environs ont rythmés le week-end. mais avant tout convoi, il y a... le briefing des chauffeursUn char M18 hellcatLa résistance était bien représentéee avec ces magnifiques véhicules aux couleurs des FFIOpel BlitzDevant le monument aux mort pendant la cérémonie.Les pompiers nous ont rejoint lors du défilé.Un défilé de plus de 30 véhicules. En traversant ces petits villages restés ruraux on ne peux s'empêcher de se dire ohh combien il serait facile de s'arrêter faire des photos de reconstitution! En bref un super week-end plein d'animations, de bons moments de nouvelles connaissances!",
+      "cover" : "/assets/rassemblements/tr.jpg"
+  },
+
+   
+  {
+    "id" : 16,
+    "titre" : "Rassemblement à Saint Jean de Gonville 2005",
+    "type" :"Évènement Militaire",
+    "date" : 2005,
+    "resume" : "Le samedi 25 juin 2005 le groupement militaire de Saint Jean de Gonville nous a invité à les rejoindre lors d'un rassemblement organisé par leurs soins. C'est avec plaisir que nous avons répondu présents à leur invitation. Avec quelques uns des véhicules de l'A.V.M nous les avons rejoint après la traversé en convoi de Genève.",
+    "texte" : "Voici quelques photos de cette belle journée...On commence par les véhicules du groupe organisateur avec un Dodge en parfait état et bien équipé. Voici leur magnifique Dodge 6*6 en superbe état lui aussi comme la plupart des véhicules présents ce jour là. Ici leur G.M.C dépanneur... Deux membres de ce groupe avec leur jeep équipée... Un peu plus rare ce Dodge transporteur de troupes qui venait de la Suisse voisine. Quatre membres du groupe de Saint Jean qui portent l'uniforme et l'équipement du G'I On peut apercevoir un second Dodge à droite Comme on peut le voir c'est un groupe plutot restreint comme la plupart en Haute-Savoie mais ils sont assez bien équipés avec du materiel en parfait état! Bien que tout cela représente les outils de guerre et que c'est à cause de cela que les victimes de la Seconde guerre mondiale se comptent par millions, ca reste pour les passionnés une belle  photo... Ici entre autre, on distingue le fusil mitrailleur Thompson (à droite) et la carabine US M1(àa gauche) Dans l'après-midi, une balade convoi a été organisée dans les rues de Saint Jean. Ici une halte au bord de route... On termine cette journée avec un vue de l'emsemble des véhicules qui s'étaient donnés rendez-vous...CLIQUEZ SUR LA PHOTO POUR VOIR LA VIDEO:",
+      "cover" : "/assets/rassemblements/test.jpg"
+  },
+ 
+  {
+    "id" : 17,
+    "titre" : "65e Anniversaire du Débarquement en Normandie",
+    "type" :"Évènement Militaire",
+    "date" : 2009,
+    "resume" : "Le 1er juin, c'est le départ! après 5 années de travail, voila notre projet qui débute. Avec 4 Jeep et 2 autres sur les remorques, on se lance à l'assaut des 850 km de route.",
+    "texte" : "Deux jours plus tard, nous arrivons chez l'habitant, une famille qui fait partie d'un club et qui a bien voulu nous accueillir tous, en attendant l'ouverture de notre camp à Saint-Come du Mont. Une fois sur place pas le temps de souffler, on enchaine musées, plages, cérémonies, défilés, rencontres de vétérans, visites de lieux historiques... Le départ 2 jours passés chez l'habitant Le camp à Saint Come du Mont Le camp Savoyard Les marches: Cimetière de Colleville La batterie de Crisbecq Bourse à Sainte Mère Eglise Cérémonie à Omaha Beach",
+     "cover" : "/assets/rassemblements/test.jpg"
+  },
+
+    {
+    "id" : 18,
+    "titre" : "Mariage et isite du Musée Départemental des Pompiers de Haute-Savoie.",
+    "type" :"Divers",
+    "date" : 2007,
+    "resume" : "Un couple de futurs mariés avait souhaité et demandé notre présence le jour de leur mariage, c'est avec un grand plaisir que nous avons répondu présents à l'appel..",
+    "texte" : "Le nouveau camouflage de l'A.V.M 74. Le 2 Juin 2007 nous nous sommes rendu au Musée Départemental des Pompiers de Haute-Savoie à Sciez. Nous y avons découvert beaucoup de véhicules, très différents, de toutes époque et tous en bon état! L'accueil chaleureux et amical nous laissera un bon souvenir de cette visite. Du plus vieux... Au plus joli...Même des collegues!!",
+    "cover" : "/assets/rassemblements/tr.jpg",
+    "images" : []
+  },
+
+  {
+
+  "id" : 19,
+    "titre" : "1ère Fête de la Jeep à Thorens-Glières les 14 et 15 juin 2008.",
+    "type" :"Fête Jeep",
+    "date" : 2008,
+    "resume" : "Cette année, suite à deux fêtes du village de Thorens-Glières où nous avions été invités, très bien reçu et où nous avions passé de très bons moments, nous avons décidés avec le commité de fête de lancer la fête de la jeep",
+    "texte" : "nous avons décidés avec le commité de fête de lancer la fête de la jeep pour remplacer celle de Tanninge qui n'a aujourd'hui plus lieu.Ainsi, malgré une météo assez capricieuse durant le week-end, de nombreuses jeep nous ont rejointes.Lors de la préparation de cette mission, les rensiegnements avaient signalés un fossé qui aurait pu gêner les visiteurs pour acceder au campement. Ainsi nos Gars du génie avaient fabriqué un pont mais le fossé avait été rempli! (drapeau d'époque)Le samedi de nombreux exposants étaient présents et un seul le dimanche.Nous sommes satisfaits de notre première fête bien que nous espèrions un peu plus de monde. Croisons les doigts pour que l'année prochaine la pluie ne soit plus de la partie!!...",
+    "cover" : "/assets/rassemblements/truc.jpg",
+    "images" : []
+  },
+
+  {
+
+  "id" : 20,
+    "titre" : "5e Fête des Véhicules Militaires 2007 à Veigy-Foncenex.",
+    "type" :"Fête Jeep",
+    "date" : 2007,
+    "resume" : "Pour la 5e année consécutive nous avons organisé notre fête des véhicules militaires à Veigy-Foncenex (Haute-Savoie). Le beau temps était de la partie et la manifestation s'est donc bien déroulée avec de nombreuses Jeep cette année et une bourse qui s'agrandit de plus en plus.",
+
+    "texte" : "Les miniatures téléguidées ont fait partie des animations du week-end  au grand bonheur du public. Nos amis italiens du groupe Normandy 44 avaient fait le déplacement avec du matériel et 4 Jeep.Petite exposition d'armes qui rappellent de nombreux souvenirs à certains visiteurs",
+    "cover" : "/assets/rassemblements/test.jpg",
+    "images" : []
+  },
+
+  { "id" : 21,
+    "titre" : "6e Fête des Véhicules Militaires 2008 à Veigy-Foncenex",
+    "type" :"Fête Jeep",
+    "date" : 2008,
+    "resume" : "Cette 6e édition fut une fois encore une franche réussite. Le beau temps était de la partie et le public aussi.",
+
+    "texte" : "Cette année nous avions voulu mettre l'accent sur le campement reconstitué qui s'approchait fortement d'un musée à ciel ouvert pour le plus grand bonheur de tous.Ainsi, tentes, armes, champ de mines et matériel de déminage mais aussi poste d'essence, de radio ou encore le mirador pour la sécurité du camp avient été mis en place par notre association.Comme chaque année, un hommage aux résistants a été fait avec un mannequin à leur effigie ainsi qu'une magnifique voiture civil d'époque venant de notre village (FIAT de 1932).Nos amis maquettistes étaient toujours présent pour divertir le public impressionné!Le soir notre fameux repas du soldat suivit de la sortie black-out dans les bois en a séduit plus d'un. Le dimanche matin une grand balade étaient organisée pour les plus courageux, sur le bord du lac Léman ainsi que sur les hauteurs pour admirer le superbe paysage!",
+    "cover" : "/assets/rassemblements/test.jpg",
+    "images" : []
+  },
+
+  { "id" : 22,
+    "titre" : "7e Fête des Véhicules Militaires 2009 à Veigy-Foncenex",
+    "type" :"Fête Jeep",
+    "date" : 2009,
+    "resume" : "Déja 7 éditions! Un long chemin depuis notre première fête.",
+
+    "texte" : "Nous essayons comme chaque année d'améliorer cette manifestation avec cette année un effort de notre part porté sur la présentation de notre matériel afin de rendre la viste du public encore plus intéressante.Par chance le temps était de la partie et ce fut une franche réussite. Beaucoup de rencontres et de retrouvailles avec les habitués, de petites alades à la découverte des alentours, la bourse, les animations avec cette année une démonstration et initiation à la danse country.",
+    "cover" : "/assets/rassemblements/tr.jpg",
+    "images" : []
+  },
+
+  { "id" : 23,
+    "titre" : "8e Fête des Véhicules Militaires 2010 à Veigy-Foncenex",
+    "type" :"Fête Jeep",
+    "date" : 2010,
+    "resume" : "C'est une sorte de tradition à présent pour notre amicale et pour le département. Notre Fête des Véhicules Militaires s'est déroulée comme toujours, le second week-end de septembre.",
+
+    "texte" : "Le temps annoncé n'étant pas très encourageant nous avons réuni un peu moins de véhicules, découragés de faire la route sous de grosses averses.Néanmoins, le public fut plus nombreux pour participer à lafête au grand bonheur de tous.Heureusement le soleil était présent la plus grande partie du temps, ce qui nous a laissé l'opportunité d'exposer nos collections personnelles dans le musée à ciel ouvert que nous organisons.",
+    "cover" : "/assets/rassemblements/tr.jpg",
+     "images" : []
+  },
+  
+  { "id" : 24,
+    "titre" : "Balade annuelle de l'AVM 74 au plateau des Glières 2010",
+    "type" :"Divers",
+    "date" : 2010,
+    "resume" : "Cette année nous avons décidés de faire une balade tous ensemble sur un week-end. Nous avons choisi le plateau des Glières et ses alentours pour cette balade.",
+
+    "texte" : "Une montée très sympathique...Enfin nous arrivons sur le plateau.Le samedi en fin d'après-midi nous descendons du plateau pour rejoindre Cruseilles. La-bas, un bar a organisé une soirée sur le thème militaire. Nous y rejoignons quelques Jeep pour boire un coup. A notre départ nous faisons un petit défilé dans les rues.Après une bonne nuit de sommeil et une délicieuse tartiflette dans notre gite que l'on voit sur la photo, nous pouvons contempler le levé de soleil sur le plateau. Dans le fond, le monument. On s'enfonce ensuite dans les bois près d'Usillon. Nous arrivons sur une stèle qui commémore le rassemblement de maquisards en ce lieu avant de récuperer un parachutage allié.En ce lieu la veille du 1er aout 1944, des hommes de l'AS et des FTP se regroupèrent pour assister au parachutage massif d'armes et de munitions sur le Plateau des Glières.Parachutage qui permit à la résistance de libérer le département par ses propres moyen et dont la devise était: 'Vivre Libre ou Mourir'Passant souviens toi!Descente de la voie romaine.",
+    "cover" : "/assets/rassemblements/test.jpg",
+    "images" : []
+  }
+
+
+
+
+
+
+
+]

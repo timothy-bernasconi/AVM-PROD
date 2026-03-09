@@ -1,0 +1,55 @@
+@import '../variables.scss';
+
+.us-page {
+  background: linear-gradient(135deg, #1a2a1a 0%, #2a3a2a 50%, #3f5f3f 100%);
+
+  .presentation {
+    max-width: 1000px;
+    text-align: center;
+
+    h2 { color: white; }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+      color: white;
+
+      span {
+        font-weight: 600;
+        color: #b2a57c;
+        display: inline;
+        margin: 0;
+      }
+
+      h2 { color: white; }
+    }
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 3rem;
+    width: 100%;
+    max-width: 1200px;
+
+    .icone {
+      flex: 1;
+      max-width: 180px;
+      background-color: rgba(255, 255, 255, 0.037);
+      padding: 30px 20px;
+      border-radius: 5px;
+      border: 1px solid rgba(255, 255, 255, 0.332);
+      text-align: center;
+      transition: transform 0.3s ease;
+
+      &:hover { transform: translateY(-5px); }
+
+      i { font-size: 2.5rem; color: #b2a57c; }
+      h3 { font-size: 1.6rem; font-weight: 800; margin: 15px 0 5px; color: white; }
+      p { font-size: 0.85rem; color: rgb(201, 201, 201); margin: 0; }
+    }
+  }
+}

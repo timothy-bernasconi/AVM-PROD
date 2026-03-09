@@ -1,0 +1,28 @@
+@use 'mixins';
+@import 'variables.scss';
+@import '_bases.scss';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/carousel';
+@import 'pages/home';
+@import 'pages/us';
+@import 'pages/history';
+@import 'pages/vehicules';
+@import 'pages/meetings';
+@import 'pages/association';
+@import 'pages/social-media';
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+@import 'responsive';

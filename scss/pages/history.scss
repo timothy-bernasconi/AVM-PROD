@@ -1,0 +1,27 @@
+@import '../variables.scss';
+.history-page {
+  background-color: #f9f8f6;
+
+  .presentation {
+    max-width: 1000px;
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  p {
+    overflow-wrap: break-word;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+
+}

@@ -1,0 +1,89 @@
+@use '../_mixins.scss';
+@import '../variables.scss';
+
+.archive-detail-page {
+  background-color: $bg-dark; 
+  color: #d1d1d1;
+  min-height: 100vh;
+  padding: 60px 20px;
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .back-link {
+    font-family: 'Courier New', monospace;
+    color: #7b8577;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    &:hover { color: #fff; }
+  }
+
+  .detail-header {
+    margin: 50px 0 80px 0;
+    background-color: rgba(255, 0, 0, 0);
+
+    .header-meta {
+      display: flex;
+      gap: 20px;
+      font-family: 'Courier New', monospace;
+      font-size: 0.85rem;
+      margin-bottom: 10px;
+      color: #555;
+
+      .year-tag { color: #7b8577; font-weight: bold; }
+    }
+
+    h1 {
+      @include mixins.h1-style;
+    }
+
+    
+    .description {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      max-width: 800px;
+      border-left: 2px solid #818181;
+      padding-left: 25px;
+    }
+  }
+
+  .photo-mosaic {
+    column-count: 4; 
+    column-gap: 20px;
+
+    @media (max-width: 900px) { column-count: 2; }
+    @media (max-width: 600px) { column-count: 1; }
+
+    .photo-wrapper {
+      position: relative;
+      margin-bottom: 20px;
+      break-inside: avoid; 
+      background: #1a1a1a;
+      border: 1px solid #252525;
+      padding: 10px; 
+
+      img {
+        width: 100%;
+        display: block;
+        filter: contrast(110%);
+        transition: transform 0.4s ease;
+      }
+
+      .photo-index {
+        display: block;
+        margin-top: 8px;
+        font-family: 'Courier New', monospace;
+        font-size: 0.7rem;
+        color: #444;
+        text-align: right;
+      }
+
+      &:hover img {
+        transform: scale(1.02);
+      }
+    }
+  }
+}

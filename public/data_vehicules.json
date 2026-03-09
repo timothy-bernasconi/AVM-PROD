@@ -1,0 +1,231 @@
+[
+ 
+  {
+    "id": 1,
+    "nom": "Jeep Ford GPW",
+    "categorie": "Jeep",
+    "image": "/assets/vehicule/jeep-ford.jpg",
+    "description": "Jeep Américaine produite durant la Seconde Guerre Mondiale",
+    "origine" : "/assets/drapeaux/drapeau-des-usa.jpg",
+    "proprietaire" : "Samuel",
+    "caracteristiques": {
+      "annee": 1941,
+      "moteur": "Willys L134 'Go Devil' ",
+      "cylindree" : "4 cylindres en ligne, soupapes latérales",
+      "puissance" : "60ch à 4000 tr/min",
+      "vitesse" : 105,
+      "poids": 1100,
+      "transmission" : "Warner T-90",
+      "conso" : "13l à 15l",
+      "autonomie" : 300
+    },
+    "equipements": ["éclairage de combat", "pare-brise rabattable"],
+    "images" : [
+      "/assets/vehicule/jeep-ford.jpg",
+      "/assets/vehicule/jeep-ford.jpg",
+      "/assets/vehicule/jeep-ford.jpg",
+      "/assets/vehicule/jeep-ford.jpg",
+      "/assets/vehicule/jeep-ford.jpg",
+      "/assets/vehicule/jeep-ford.jpg"
+    ],
+    "texte" : "Déployée sur tous les théâtres d'opérations entre 1941 et 1945, la Ford GPW incarne l'effort industriel colossal des États-Unis durant le second conflit mondial. Fruit d'une standardisation imposée par l'état-major, ce véhicule de reconnaissance a su s'imposer par sa polyvalence légendaire et sa capacité à franchir les terrains les plus hostiles, des sables d'Afrique du Nord aux forêts ardennaises. Si elle partage ses lignes avec la célèbre Willys, la version produite par Ford porte en elle l'ADN de la firme de Dearborn, avec ses méthodes de fabrication en grande série qui ont permis d'inonder les lignes de front. Surnommée la 'bonne à tout faire' des armées alliées, elle a servi de lien vital pour les transmissions, le transport d'officiers et l'évacuation rapide des blessés sous le feu. Aujourd'hui, posséder une GPW revient à détenir un fragment authentique de l'histoire, un témoin d'acier qui a survécu aux épreuves du temps pour devenir une icône culturelle mondiale. Sa silhouette basse et son allure robuste rappellent une époque où l'ingénierie devait répondre à l'urgence absolue de la liberté."
+  },
+
+  {
+    "id": 2,
+    "nom": "Weasel",
+    "categorie": "Chenillette",
+    "image": "/assets/vehicule/weasel.jpg",
+    "description": "Petit transporteur chenillé américain conçu pour évoluer sur du terrain difficile",
+    "origine" : "/assets/drapeaux/drapeau-des-usa.jpg",
+    "proprietaire" : "Samuel",
+    "caracteristiques": {
+      "annee": 1942,
+      "moteur": "Studebaker Champion 6-170",
+      "cylindree": "6 cylindres en ligne, soupapes latérales",
+      "puissance": "70ch à 3600 tr/min",
+      "vitesse": 58,
+      "poids": 1700,
+      "transmission": "Warner T-84D",
+      "conso": "25l à 30l",
+      "autonomie": 265
+    },
+    "equipements": [
+  "Chenilles larges de 20 pouces",
+  "Pare-brise rabattable",
+  "Projecteur de recherche",
+  "Capotage en toile amovible"
+],
+"images" : [
+      "/assets/vehicule/weasel.jpg",
+      "/assets/vehicule/weasel.jpg",
+      "/assets/vehicule/weasel.jpg",
+      "/assets/vehicule/weasel.jpg",
+      "/assets/vehicule/weasel.jpg",
+      "/assets/vehicule/weasel.jpg"
+     
+],
+
+"texte" : "Initialement imaginé pour des missions de sabotage dans les neiges de Norvège, le Weasel s'est rapidement imposé comme le véhicule de liaison indispensable sur les terrains où tout autre engin s'enlisait. Sa pression au sol, inférieure à celle d'un homme à pied, lui a permis de naviguer avec une aisance déconcertante à travers les marécages du Pacifique et les sols instables du front européen. Véritable mule mécanique du génie et des transmissions, il a assuré le ravitaillement des unités isolées et le sauvetage de milliers de blessés dans des conditions extrêmes. Ce petit transporteur chenillé incarne l'ingéniosité technique mise au service de la logistique, capable de transformer des obstacles infranchissables en véritables voies de passage. Aujourd'hui, il demeure le symbole de la mobilité tout-terrain absolue, rappelant les défis géographiques monumentaux relevés par les troupes alliées lors de la Libération."
+
+  },
+
+  {
+    "id": 3,
+    "nom": "Dodge WC",
+    "categorie": "Camionnette",
+    "image": "/assets/vehicule/dodge.jpg",
+    "description": "Véhicule de transport polyvalent et robuste de l'armée américaine",
+    "origine" : "/assets/drapeaux/drapeau-des-usa.jpg",
+    "proprietaire" : "Samuel",
+    "caracteristiques": {
+      "annee": 1941,
+      "moteur": "Chrysler T-214",
+      "cylindree": "6 cylindres en ligne, soupapes latérales",
+      "puissance": "92ch à 3200 tr/min",
+      "vitesse": 85,
+      "poids": 2300,
+      "transmission": "Warner T-98",
+      "conso": "30l à 35l",
+      "autonomie": 380
+    },
+    "equipements": [
+      "Treuil Braden MU-2",
+      "Pneumatiques 9.00 x 16",
+      "Capotage en toile",
+      "Banquettes latérales bois"
+    ],
+    "images" : [
+      "/assets/vehicule/dodge.jpg",
+      "/assets/vehicule/dodge.jpg",
+      "/assets/vehicule/dodge.jpg",
+      "/assets/vehicule/dodge.jpg",
+      "/assets/vehicule/dodge.jpg",
+      "/assets/vehicule/dodge.jpg"
+    ],
+    "texte" : "Épine dorsale de la logistique mobile américaine, le Dodge WC s'est imposé comme l'intermédiaire indispensable entre la Jeep et les camions lourds durant le second conflit mondial. Sa robustesse légendaire et sa transmission intégrale lui ont permis de projeter hommes et matériel au plus près des lignes de front, quel que soit l'état des routes européennes ou pacifiques. Surnommé 'Beep' pour Big Jeep par les troupes, il a été décliné en une multitude de versions spécialisées, du transport d'infanterie aux ambulances, prouvant une polyvalence mécanique inégalée. Sa silhouette massive et ses larges pneus à profil combat restent indissociables des colonnes de la Libération traversant les villages dévastés. Aujourd'hui, le Dodge incarne la puissance industrielle brute et la fiabilité mécanique qui ont assuré la victoire alliée sur tous les terrains d'opérations."
+},
+
+  {
+  "id": 4,
+  "nom": "Hotchkiss Jeep M201",
+  "categorie": "Jeep",
+  "image": "/assets/vehicule/jeep-bruno1.jpg",
+  "description": "Version produite sous licence en France, l'héritière directe de la célèbre Willys MB de la Seconde Guerre mondiale.",
+  "origine": "/assets/drapeaux/drapeau-france.png",
+  "proprietaire": "Bruno",
+  "caracteristiques": {
+    "annee": 1956,
+    "moteur": "Hotchkiss 842 (4 cylindres en ligne)",
+    "cylindree": "2 199 cm³, soupapes latérales",
+    "puissance": "60ch à 3600 tr/min",
+    "vitesse": 105,
+    "poids": 1060,
+    "transmission": "T-84 (3 vitesses + transfert)",
+    "conso": "12l à 15l",
+    "autonomie": 450
+  },
+  "equipements": [
+    "Système électrique 24V",
+    "Pneumatiques 6.00 x 16",
+    "Capotage en toile amovible",
+    "Pelle et hache de pionnier"
+  ],
+
+   "images" : [
+      "/assets/vehicule/jeep-bruno1.jpg",
+      "/assets/vehicule/jeep-bruno1.jpg",
+      "/assets/vehicule/jeep-bruno1.jpg",
+      "/assets/vehicule/jeep-bruno1.jpg",
+      "/assets/vehicule/jeep-bruno1.jpg",
+      "/assets/vehicule/jeep-bruno1.jpg"
+      
+    ],
+  "texte": "Héritière directe de la légendaire Willys MB, la Hotchkiss Jeep M201 a constitué le fer de lance de la cavalerie légère française durant les décennies de la reconstruction. Si elle conserve la silhouette iconique et la rusticité de son aînée américaine, elle se distingue par sa fabrication sous licence française, optimisée pour répondre aux exigences des théâtres d'opérations d'après-guerre. Véritable symbole de liberté et de mobilité tout-terrain, elle a gravi les sommets les plus escarpés et traversé les sables les plus arides, prouvant que son architecture compacte reste indétrônable en zone difficile. Son passage au standard électrique 24V et ses renforts mécaniques en ont fait une machine de liaison et de reconnaissance d'une fiabilité exemplaire, capable de traverser les époques sans prendre une ride. Aujourd'hui, la M201 n'est plus seulement un véhicule militaire, mais une icône du patrimoine mécanique, témoignant de la pérennité d'un concept qui a révolutionné le transport tactique mondial."
+
+},
+
+  {
+    "id": 5,
+    "nom": "Jeep Blindé",
+    "categorie": "Jeep",
+    "image": "/assets/vehicule/blinde-T25.jpg",
+    "description": "Char français célèbre pour sa tourelle oscillante.",
+    "caracteristiques": {
+      "annee": 1952,
+      "moteur": "SOFAM 8Gxb",
+      "armement": "Canon de 75 mm",
+      "blindage": "40 mm max",
+      "poids": "14500 kg"
+    },
+    "equipements": ["Lance-pots fumigènes", "Vision nocturne"]
+  },
+
+  {
+    "id": 6,
+    "nom": "GMC",
+    "categorie": "Camion",
+    "image": "/assets/vehicule/GMC-DIDIER.jpg",
+    "description": "Char français célèbre pour sa tourelle oscillante.",
+    "caracteristiques": {
+      "annee": 1952,
+      "moteur": "SOFAM 8Gxb",
+      "armement": "Canon de 75 mm",
+      "blindage": "40 mm max",
+      "poids": "14500 kg"
+    },
+    "equipements": ["Lance-pots fumigènes", "Vision nocturne"]
+  },
+
+  {
+    "id": 7,
+    "nom": "Harley WLA",
+    "categorie": "Moto",
+    "image": "/assets/harley.jpg",
+    "description": "Char français célèbre pour sa tourelle oscillante.",
+    "caracteristiques": {
+      "annee": 1952,
+      "moteur": "SOFAM 8Gxb",
+      "armement": "Canon de 75 mm",
+      "blindage": "40 mm max",
+      "poids": "14500 kg"
+    },
+    "equipements": ["Lance-pots fumigènes", "Vision nocturne"]
+  },
+
+  {
+    "id": 8,
+    "nom": "Jeep Ford",
+    "categorie": "Jeep",
+    "image": "/assets/vehicule/j.jacques.jpg",
+    "description": "Char français célèbre pour sa tourelle oscillante.",
+    "caracteristiques": {
+      "annee": 1952,
+      "moteur": "SOFAM 8Gxb",
+      "armement": "Canon de 75 mm",
+      "blindage": "40 mm max",
+      "poids": "14500 kg"
+    },
+    "equipements": ["Lance-pots fumigènes", "Vision nocturne"]
+  },
+
+  {
+    "id": "amx-21",
+    "nom": "AMX-13",
+    "categorie": "Camion",
+    "image": "/assets/vehicules.jpg",
+    "description": "Char français célèbre pour sa tourelle oscillante.",
+    "caracteristiques": {
+      "annee": 1952,
+      "moteur": "SOFAM 8Gxb",
+      "armement": "Canon de 75 mm",
+      "blindage": "40 mm max",
+      "poids": "14500 kg"
+    },
+    "equipements": ["Lance-pots fumigènes", "Vision nocturne"]
+  }
+
+
+
+
+]
