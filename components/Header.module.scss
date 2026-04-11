@@ -1,6 +1,7 @@
-@import '../variables.scss';
+@import '../scss/variables.scss';
 
-header {
+// On change "header" par ".header"
+.header {
   background-color: $primary-green;
   padding: 0px 50px;
   border-bottom: 3px solid $accent-gold;
@@ -12,6 +13,7 @@ header {
     column-gap: 30px;
   }
 
+  // Maintenant "a" est autorisé car il est imbriqué dans ".header"
   a {
     text-decoration: none;
     color: white;
@@ -64,15 +66,15 @@ header {
       }
     }
   }
-}
 
-.menu-toggle {
-  display: none;
-  font-size: 2rem;
-  background: none;
-  border: none;
-  color: $white;
-  cursor: pointer;
-  z-index: 10;
+  
+  .menu-toggle {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: $white;
+    cursor: pointer;
+    z-index: 10;
+  }
 }
-

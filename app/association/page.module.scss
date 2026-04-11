@@ -1,0 +1,286 @@
+@use '../../scss/mixins' as mixins;
+@import '../../scss/variables.scss';
+
+
+.detailed-association-page {
+  background-color: $bg-dark;
+  color: #e0e0e0;
+}
+
+.detailed-association-section {
+  padding: 0;
+}
+
+.detailed-association-banner {
+  width: 100%;
+  height: 320px;
+  background: url('/assets/assos.jpg') center/cover no-repeat;
+  filter: brightness(0.45) sepia(20%) contrast(110%);
+  border-bottom: 4px solid #7b8577;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, transparent 50%, $bg-dark 100%);
+  }
+}
+
+.detailed-association-intro {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 60px 30px 50px;
+  border-bottom: 2px solid #3d403d;
+
+  .detailed-association-text {
+    h2 {
+      @include mixins.h1-style;
+      
+
+      span {
+        color: $text-grey;
+      }
+    }
+
+    .detailed-association-p-1,
+    .detailed-association-p-2 {
+      color: #bbb;
+      font-size: 1.05rem;
+      line-height: 1.75;
+      margin-bottom: 12px;
+    }
+
+    .detailed-association-highlighted {
+      margin-top: 28px;
+      padding: 18px 24px;
+      border-left: 4px solid #7b8577;
+      background: #1e1e1e;
+      color: #999;
+      font-style: italic;
+      font-family: 'Courier New', monospace;
+      font-size: 0.95rem;
+      letter-spacing: 0.5px;
+    }
+  }
+}
+
+// ─── HISTORY ───────────────────────────────────────────────────────────────────
+.detailed-association-history-container {
+  padding: 70px 30px;
+  border-bottom: 2px solid #3d403d;
+}
+
+.detailed-association-history {
+  max-width: 960px;
+  margin: 0 auto;
+
+  .detailed-association-h2 {
+    @include mixins.h1-style;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  .detailed-association-value-p {
+    text-align: center;
+    color: #7b8577;
+    font-family: 'Courier New', monospace;
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+  }
+}
+
+// ─── HISTORY CARDS ─────────────────────────────────────────────────────────────
+.detailed-association-value-card {
+  display: flex;
+  align-items: stretch;
+  background: #1e1e1e;
+  border: 1px solid #333;
+  margin-bottom: 40px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+
+  &:hover {
+    border-color: #7b8577;
+    box-shadow: 0 10px 25px rgba(123, 133, 119, 0.15);
+    transform: translateY(-4px);
+  }
+
+  &.inverse {
+    flex-direction: row-reverse;
+
+    .history-card-year {
+      left: auto;
+      right: 0;
+    }
+  }
+
+  .history-card-image {
+    flex: 0 0 320px;
+    position: relative;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: sepia(20%) contrast(105%) brightness(0.85);
+      transition: transform 0.5s ease;
+    }
+
+    &:hover img {
+      transform: scale(1.04);
+    }
+  }
+
+  .history-card-text {
+    flex: 1;
+    padding: 36px 32px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .history-card-year {
+    display: inline-block;
+    background: #7b8577;
+    color: #fff;
+    padding: 4px 14px;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    width: fit-content;
+  }
+
+  .history-card-h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+
+  .history-card-p {
+    font-size: 0.95rem;
+    color: #bbb;
+    line-height: 1.7;
+    margin: 0;
+  }
+}
+
+// ─── VALUES ────────────────────────────────────────────────────────────────────
+.detailed-association-values {
+  padding: 70px 30px;
+  border-bottom: 2px solid #3d403d;
+
+  h2 {
+    @include mixins.h1-style;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 24px;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .value-card {
+    background: #1e1e1e;
+    border: 1px solid #333;
+    padding: 32px 24px;
+    text-align: center;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+
+    &:hover {
+      border-color: #7b8577;
+      box-shadow: 0 10px 25px rgba(123, 133, 119, 0.15);
+      transform: translateY(-4px);
+    }
+
+    i {
+      color: #7b8577;
+      font-size: 1.8rem;
+      margin-bottom: 16px;
+      display: block;
+    }
+
+    h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: #fff;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-size: 0.9rem;
+      color: #999;
+      line-height: 1.65;
+    }
+  }
+}
+
+// ─── MEMBERS ───────────────────────────────────────────────────────────────────
+.detailed-association-members {
+  padding: 70px 30px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.detailed-association-values {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  .text {
+    padding: 0 75px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #999;
+    line-height: 1.65;
+    margin-bottom: 2rem;
+    margin-top: -1rem;
+  }
+}
+
+// ─── RESPONSIVE ────────────────────────────────────────────────────────────────
+@media (max-width: 768px) {
+  .detailed-association-banner {
+    height: 200px;
+  }
+
+  .detailed-association-value-card,
+  .detailed-association-value-card.inverse {
+    flex-direction: column;
+
+    .history-card-image {
+      flex: 0 0 220px;
+      width: 100%;
+    }
+  }
+
+  .values-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+}

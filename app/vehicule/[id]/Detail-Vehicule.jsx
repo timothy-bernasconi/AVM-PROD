@@ -2,8 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-
-import "../../scss/components/vehicule-detail.scss"; 
+import styles from "./Detail-Vehicule.module.scss"; 
 
 const VehiculeDetail = ({ params }) => {
   const { id } = params;
@@ -11,7 +10,8 @@ const VehiculeDetail = ({ params }) => {
   const [erreur, setErreur] = useState(null);
 
   useEffect(() => {
-    fetch("/vehicules.json")
+    // Vérifie bien que le nom du fichier est data_vehicules.json comme pour la galerie
+    fetch("/data_vehicules.json")
       .then((res) => {
         if (!res.ok) throw new Error("Impossible de charger les données");
         return res.json();
@@ -23,32 +23,33 @@ const VehiculeDetail = ({ params }) => {
       .catch((err) => setErreur(err.message));
   }, [id]);
 
-  if (erreur) return <p>Erreur : {erreur}</p>;
-  if (!vehicule) return <p>Chargement du véhicule...</p>;
+  if (erreur) return <p className={styles.error}>Erreur : {erreur}</p>;
+  if (!vehicule) return <p className={styles.loading}>Chargement du véhicule...</p>;
 
   return (
-    <div className="vehicule-detail">
-      <Link href="/vehicules" className="back-link">
+    <div className={styles['vehicule-detail']}>
+      {/* Retour vers la liste (vérifie si ton URL est /vehicule ou /collection) */}
+      <Link href="/vehicule" className={styles['back-link']}>
         ← Retour à la collection
       </Link>
       
-      <div className="detail-container">
-        <div className="image-section">
+      <div className={styles['detail-container']}>
+        <div className={styles['image-section']}>
           <img src={vehicule.image} alt={vehicule.nom} />
-          <div className="type">{vehicule.categorie}</div>
-          <div className="vehicule-name">{vehicule.nom}</div>
+          <div className={styles.type}>{vehicule.categorie}</div>
+          <div className={styles['vehicule-name']}>{vehicule.nom}</div>
         </div>
 
-        <div className="info-section">
-          <span className="category">{vehicule.categorie}</span>
+        <div className={styles['info-section']}>
+          <span className={styles.category}>{vehicule.categorie}</span>
           <h1>{vehicule.nom}</h1>
           
-          <div className="description">
+          <div className={styles.description}>
             <h3>Description</h3>
             <p>{vehicule.description || "Aucune description disponible pour ce modèle."}</p>
           </div>
 
-          <ul className="specs">
+          <ul className={styles.specs}>
             <li><strong>Année :</strong> {vehicule.annee || "N/A"}</li>
             <li><strong>Moteur :</strong> {vehicule.moteur || "N/A"}</li>
           </ul>

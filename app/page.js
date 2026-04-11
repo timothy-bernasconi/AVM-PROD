@@ -1,6 +1,5 @@
 
 import HomeSection from '../components/HomeSection';
-import HistorySection from '../components/HistorySection';
 import VehiculesSection from '../components/VehiculesSection';
 import MeetingsSection from '../components/MeetingsSection';
 import AssociationSection from '../components/AssociationSection';
@@ -12,10 +11,11 @@ export default function Home() {
     <>
       <main>
         <HomeSection />
-        <HistorySection />
+         <MeetingsSection />
+          <AssociationSection />
         <VehiculesSection />
-        <MeetingsSection />
-        <AssociationSection />
+       
+       
         <SocialMediaSection />
       </main>
     </>

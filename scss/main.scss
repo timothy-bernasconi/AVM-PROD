@@ -1,12 +1,11 @@
 @use 'mixins';
 @import 'variables.scss';
 @import '_bases.scss';
-@import 'components/header';
-@import 'components/footer';
-@import 'components/carousel';
+@import '../../avm/components/Header.module.scss';
+@import '../../avm/components/Footer.module.scss';
+@import '../../avm/components/Carousel.module.scss';
 @import 'pages/home';
 @import 'pages/us';
-@import 'pages/history';
 @import 'pages/vehicules';
 @import 'pages/meetings';
 @import 'pages/association';

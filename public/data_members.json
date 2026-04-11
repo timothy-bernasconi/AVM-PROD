@@ -2,9 +2,32 @@
     
     {
     "id": 1,
-    "prénom" : "Sam",
-    "photo" : 
+    "prénom" : "Samuel",
+    "photo" : "./assets/membres/samuel.png"
+    
+  },
+
+  {
+    "id": 2,
+    "prénom" : "Glenn",
+    "photo" : "./assets/membres/glenn.png"
+    
+  },
+
+   {
+    "id": 3,
+    "prénom" : "Hedy",
+    "photo" : "./assets/membres/hedy.png"
+    
+  },
+
+  {
+    "id": 4,
+    "prénom" : "La Fraise",
+    "photo" : "./assets/membres/fraise.png"
     
   }
+
+
 
   ]

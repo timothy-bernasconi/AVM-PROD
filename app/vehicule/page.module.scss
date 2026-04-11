@@ -1,5 +1,5 @@
-@use '../mixins.scss';
-@import '../variables.scss'; // Assure-toi que le chemin vers _variables.scss est correct
+@use '../../scss/mixins';
+@import '../../scss/variables.scss'; 
 
 .test {
  

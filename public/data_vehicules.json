@@ -73,7 +73,7 @@
   {
     "id": 3,
     "nom": "Dodge WC",
-    "categorie": "Camionnette",
+    "categorie": "Camion",
     "image": "/assets/vehicule/dodge.jpg",
     "description": "Véhicule de transport polyvalent et robuste de l'armée américaine",
     "origine" : "/assets/drapeaux/drapeau-des-usa.jpg",
@@ -146,86 +146,195 @@
 },
 
   {
-    "id": 5,
-    "nom": "Jeep Blindé",
-    "categorie": "Jeep",
-    "image": "/assets/vehicule/blinde-T25.jpg",
-    "description": "Char français célèbre pour sa tourelle oscillante.",
-    "caracteristiques": {
-      "annee": 1952,
-      "moteur": "SOFAM 8Gxb",
-      "armement": "Canon de 75 mm",
-      "blindage": "40 mm max",
-      "poids": "14500 kg"
-    },
-    "equipements": ["Lance-pots fumigènes", "Vision nocturne"]
+  "id": 5,
+  "nom": "Half-Track M16",
+  "categorie": "Blindé antiaérien",
+  "image": "/assets/vehicule/half-track-m16.jpg",
+  "description": "Surnommé le 'Meat Chopper' (hachoir à viande), ce véhicule semi-chenillé est équipé d'une tourelle Maxson quadruple.",
+  "origine": "/assets/drapeaux/drapeau-des-usa.jpg",
+  "proprietaire": "Remi",
+  "caracteristiques": {
+    "annee": 1943,
+    "moteur": "White 160AX (6 cylindres)",
+    "cylindree": "6 330 cm³, soupapes latérales",
+    "puissance": "147ch à 3000 tr/min",
+    "vitesse": 72,
+    "poids": 9300,
+    "transmission": "Spicer (4 vitesses + transfert)",
+    "conso": "80l à 100l",
+    "autonomie": 280
   },
+  "equipements": [
+    "Tourelle Maxson M45",
+    "4 mitrailleuses Browning M2 .50 cal",
+    "Blindage acier 6mm à 12mm",
+    "Train de roulement arrière à chenilles"
+  ],
+
+  "images" : [
+      "/assets/vehicule/half-track-m16.jpg",
+      "/assets/vehicule/half-track-m16.jpg",
+      "/assets/vehicule/half-track-m16.jpg",
+      "/assets/vehicule/half-track-m16.jpg",
+      "/assets/vehicule/half-track-m16.jpg",
+      "/assets/vehicule/half-track-m16.jpg"
+    ],
+
+  "texte": "Véritable forteresse mobile, le Half-Track M16 a redéfini la protection antiaérienne rapprochée des colonnes blindées alliées. Sa tourelle quadruple, capable de saturer le ciel de plomb en quelques secondes, s'est avérée tout aussi redoutable lors des combats terrestres pour briser les contre-attaques adverses. Alliance parfaite entre la traction du camion et le franchissement du char, il incarne l'ingéniosité technique américaine face aux nécessités de la guerre moderne. Son profil hybride, reconnaissable entre mille avec ses rouleaux de franchissement et ses chenilles arrière, demeure le symbole de la logistique offensive qui a balayé l'Europe. Aujourd'hui, le rugissement de son moteur White et la silhouette massive de ses mitrailleuses jumelées rappellent la puissance de feu démesurée qui a protégé les libérateurs du ciel comme de la terre."
+},
 
   {
-    "id": 6,
-    "nom": "GMC",
-    "categorie": "Camion",
-    "image": "/assets/vehicule/GMC-DIDIER.jpg",
-    "description": "Char français célèbre pour sa tourelle oscillante.",
-    "caracteristiques": {
-      "annee": 1952,
-      "moteur": "SOFAM 8Gxb",
-      "armement": "Canon de 75 mm",
-      "blindage": "40 mm max",
-      "poids": "14500 kg"
-    },
-    "equipements": ["Lance-pots fumigènes", "Vision nocturne"]
+  "id": 6,
+  "nom": "Dodge WC 52",
+  "categorie": "Camion",
+  "image": "/assets/vehicule/dodge-wc-52.jpg",
+  "description": "Version équipée d'un treuil du célèbre 'Beep', conçu pour le transport d'armes et de troupes sur tous les terrains.",
+  "origine": "/assets/drapeaux/drapeau-des-usa.jpg",
+  "proprietaire": "Remi",
+  "caracteristiques": {
+    "annee": 1943,
+    "moteur": "Chrysler T-214 (6 cylindres)",
+    "cylindree": "3 770 cm³, soupapes latérales",
+    "puissance": "92ch à 3200 tr/min",
+    "vitesse": 85,
+    "poids": 2550,
+    "transmission": "4 vitesses (synchro 3ème et 4ème)",
+    "conso": "35l à 40l",
+    "autonomie": 350
   },
+  "equipements": [
+    "Treuil Braden MU-2 (traction 3,4 tonnes)",
+    "Pneumatiques 9.00 x 16",
+    "Système électrique 6V",
+    "Crochet d'attelage arrière"
+  ],
 
-  {
-    "id": 7,
-    "nom": "Harley WLA",
-    "categorie": "Moto",
-    "image": "/assets/harley.jpg",
-    "description": "Char français célèbre pour sa tourelle oscillante.",
-    "caracteristiques": {
-      "annee": 1952,
-      "moteur": "SOFAM 8Gxb",
-      "armement": "Canon de 75 mm",
-      "blindage": "40 mm max",
-      "poids": "14500 kg"
-    },
-    "equipements": ["Lance-pots fumigènes", "Vision nocturne"]
+   "images" : [
+      "/assets/vehicule/dodge-wc-52.jpg",
+      "/assets/vehicule/dodge-wc-52.jpg",
+      "/assets/vehicule/dodge-wc-52.jpg",
+      "/assets/vehicule/dodge-wc-52.jpg",
+      "/assets/vehicule/dodge-wc-52.jpg",
+      "/assets/vehicule/dodge-wc-52.jpg"
+     
+    ],
+
+  "texte": "Indissociable des unités de combat américaines, le Dodge WC 52 se distingue de son frère le WC 51 par l'ajout d'un puissant treuil frontal, faisant de lui l'outil de dépannage et de franchissement par excellence. Capable d'extraire ses propres roues de l'ornière ou de porter secours à d'autres véhicules en difficulté, il a été le pilier logistique des divisions blindées sur les sols boueux d'Europe. Sa silhouette basse, sa garde au sol généreuse et son moteur Chrysler increvable lui confèrent une autorité naturelle sur le terrain. Plus qu'un simple camion, il représente la force tranquille de l'intendance militaire, transformant chaque obstacle en une simple formalité mécanique. Aujourd'hui, sa calandre caractéristique et son treuil imposant symbolisent la détermination technique qui a permis de maintenir le mouvement incessant des armées de la Libération."
+},
+
+{
+  "id": 7,
+  "nom": "Harley-Davidson WLA",
+  "categorie": "Moto",
+  "image": "/assets/vehicule/harley.jpg",
+  "description": "Surnommée 'The Liberator', cette moto robuste a servi sur tous les fronts pour les missions d'estafette et de reconnaissance.",
+  "origine": "/assets/drapeaux/drapeau-des-usa.jpg",
+  "proprietaire": "Hedy",
+  "caracteristiques": {
+    "annee": 1942,
+    "moteur": "V-Twin à 45° (Flathead)",
+    "cylindree": "740 cm³ (45 ci)",
+    "puissance": "25ch à 4500 tr/min",
+    "vitesse": 105,
+    "poids": 250,
+    "transmission": "3 vitesses (commande manuelle)",
+    "conso": "6l à 8l",
+    "autonomie": 220
   },
+  "equipements": [
+    "Porte-bagages renforcé",
+    "Filtre à air à bain d'huile",
+    "Phares de type 'Blackout'"
+  ],
 
-  {
-    "id": 8,
-    "nom": "Jeep Ford",
-    "categorie": "Jeep",
-    "image": "/assets/vehicule/j.jacques.jpg",
-    "description": "Char français célèbre pour sa tourelle oscillante.",
-    "caracteristiques": {
-      "annee": 1952,
-      "moteur": "SOFAM 8Gxb",
-      "armement": "Canon de 75 mm",
-      "blindage": "40 mm max",
-      "poids": "14500 kg"
-    },
-    "equipements": ["Lance-pots fumigènes", "Vision nocturne"]
+  "images" : [
+      "/assets/vehicule/harley.jpg",
+      "/assets/vehicule/harley.jpg",
+     "/assets/vehicule/harley.jpg",
+     "/assets/vehicule/harley.jpg",
+     "/assets/vehicule/harley.jpg",
+   "/assets/vehicule/harley.jpg"
+     
+    ],
+
+  "texte": "Éclaireur infatigable des colonnes alliées, la Harley-Davidson WLA a conquis ses galons de noblesse dans la boue et la poussière des champs de bataille. Conçue pour une fiabilité absolue, elle abandonne tout luxe pour se concentrer sur l'essentiel : porter les ordres prioritaires là où aucun véhicule lourd ne peut s'aventurer. Son moteur en V à soupapes latérales, reconnaissable à son martèlement caractéristique, est devenu le battement de cœur de la liberté retrouvée lors de l'entrée des troupes dans les villes libérées. Équipée de son fourreau en cuir pour le célèbre Thompson et de ses sacoches de toile, elle incarne l'esprit d'indépendance et d'audace des soldats de l'ombre. Aujourd'hui, chaque WLA encore en mouvement est un hommage vivant à la vitesse et au courage qui ont permis de maintenir le lien vital entre les unités au plus fort de la tourmente."
+},
+
+ {
+  "id": 8,
+  "nom": "Willys MB Jeep",
+  "categorie": "Jeep",
+  "image": "/assets/vehicule/willys-mb.jpg",
+  "description": "Icône mondiale de la Seconde Guerre mondiale, ce véhicule léger 4x4 a révolutionné la mobilité militaire.",
+  "origine": "/assets/drapeaux/drapeau-des-usa.jpg",
+  "proprietaire": "Hedy",
+  "caracteristiques": {
+    "annee": 1943,
+    "moteur": "Willys 'Go Devil' (4 cylindres en ligne)",
+    "cylindree": "2 199 cm³, soupapes latérales",
+    "puissance": "60ch à 4000 tr/min",
+    "vitesse": 105,
+    "poids": 1100,
+    "transmission": "T-84 (3 vitesses + transfert)",
+    "conso": "12l à 18l",
+    "autonomie": 350
   },
+  "equipements": [
+    "Système électrique 6V",
+    "Pneumatiques 6.00 x 16 à profil combat",
+    "Pelle et hache montées sur le côté",
+    "Pare-brise rabattable avec capotage toile"
+  ],
 
-  {
-    "id": "amx-21",
-    "nom": "AMX-13",
-    "categorie": "Camion",
-    "image": "/assets/vehicules.jpg",
-    "description": "Char français célèbre pour sa tourelle oscillante.",
-    "caracteristiques": {
-      "annee": 1952,
-      "moteur": "SOFAM 8Gxb",
-      "armement": "Canon de 75 mm",
-      "blindage": "40 mm max",
-      "poids": "14500 kg"
-    },
-    "equipements": ["Lance-pots fumigènes", "Vision nocturne"]
-  }
+   "images" : [
+      "/assets/vehicule/willys-mb.jpg",
+      "/assets/vehicule/willys-mb.jpg",
+    "/assets/vehicule/willys-mb.jpg",
+     "/assets/vehicule/willys-mb.jpg",
+     "/assets/vehicule/willys-mb.jpg",
+   "/assets/vehicule/willys-mb.jpg"
+     
+    ],
 
+  "texte": "Surnommée 'le fidèle destrier' du GI, la Willys MB est bien plus qu'un simple véhicule tout-terrain : elle est le symbole universel de la victoire et de l'ingéniosité industrielle alliée. Conçue dans l'urgence pour répondre à un besoin désespéré de mobilité tactique, sa silhouette spartiate et sa transmission 4x4 lui ont permis de s'affranchir de tous les obstacles, de la Normandie à Berlin, et du désert d'Afrique du Nord aux jungles du Pacifique. Agile, robuste et facile à réparer, elle a servi de plateforme pour une multitude de rôles, de l'ambulance au poste de commandement radio, en passant par le transport de troupes et les patrouilles armées. Le bruit sec de son moteur 'Go Devil' et l'étoile blanche sur son capot restent à jamais gravés dans la mémoire collective comme le premier signe de la Libération imminente. Aujourd'hui, la Willys MB n'est pas seulement un ancêtre du 4x4 moderne, elle est une légende mécanique qui continue d'inspirer le respect et la passion des collectionneurs du monde entier."
+},
 
+{
+  "id": 9,
+  "nom": "Willys MB Jeep",
+  "categorie": "Jeep",
+  "image": "/assets/vehicule/jeep-glenn.jpg",
+  "description": "Le fer de lance de la mobilité alliée durant la Libération, ici dans sa configuration de pleine production de 1944.",
+  "origine": "/assets/drapeaux/drapeau-des-usa.jpg",
+  "proprietaire": "Glenn",
+  "caracteristiques": {
+    "annee": 1944,
+    "moteur": "Willys 'Go Devil' (4 cylindres en ligne)",
+    "cylindree": "2 199 cm³, soupapes latérales",
+    "puissance": "60ch à 4000 tr/min",
+    "vitesse": 105,
+    "poids": 1100,
+    "transmission": "T-84 (3 vitesses + transfert)",
+    "conso": "12l à 18l",
+    "autonomie": 350
+  },
+  "equipements": [
+    "Système électrique 6V",
+    "Jerrycan d'essence arrière",
+    "Support pour fusil Garand M1",
+    "Pneus profil 'Combat' divisibles"
+  ],
 
+   "images" : [
+      "/assets/vehicule/jeep-glenn.jpg",
+      "/assets/vehicule/jeep-glenn.jpg",
+    "/assets/vehicule/jeep-glenn.jpg",
+     "/assets/vehicule/jeep-glenn.jpg",
+     "/assets/vehicule/jeep-glenn.jpg",
+   "/assets/vehicule/jeep-glenn.jpg"
+     
+    ],
+  "texte": "En 1944, la Willys MB n'est plus seulement un véhicule, c'est une machine de guerre parfaitement rodée qui déferle sur les routes d'Europe. Cette version de 1944 intègre toutes les petites améliorations dictées par l'expérience du front : des supports d'outils optimisés, un éclairage 'blackout' perfectionné et une robustesse à toute épreuve. Elle est le symbole de l'industrie américaine tournant à plein régime pour la Libération. Du bocage normand aux ponts du Rhin, elle a transporté les plus grands généraux comme les simples soldats, se jouant de la boue et des décombres avec une agilité déconcertante. Sa présence sur le terrain était la garantie d'une liaison rapide et d'une polyvalence tactique qui a constamment pris l'ennemi de vitesse. Posséder un modèle de 1944, c'est détenir un morceau d'histoire ayant vécu les heures les plus décisives du second conflit mondial."
+}
 
 ]

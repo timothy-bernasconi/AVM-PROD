@@ -1,5 +1,5 @@
-@use '../_mixins.scss';
-@import '../variables.scss';
+@use '../../../scss/mixins';
+@import '../../../scss/variables.scss';
 
 .archive-detail-page {
   background-color: $bg-dark; 

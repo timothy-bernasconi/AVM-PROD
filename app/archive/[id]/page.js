@@ -1,7 +1,7 @@
 import dataArchives from '@/public/data_archives.json';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import '../../../scss/pages/archive-detail.scss';
+import styles from './page.module.scss';
 
 export default async function FicheArchive({ params }) {
   const { id } = await params;
@@ -9,35 +9,35 @@ export default async function FicheArchive({ params }) {
 
   if (!souvenir) return notFound();
 
- 
   const photos = Array.isArray(souvenir.images) ? souvenir.images : [souvenir.images];
 
   return (
-    <main className="archive-detail-page">
-      <div className="container">
-        <Link href="/souvenirs" className="back-link">
+    <main className={styles['archive-detail-page']}>
+      <div className={styles.container}>
+        <Link href="/souvenirs" className={styles['back-link']}>
           [ RETOUR AUX SOUVENIRS ]
         </Link>
         
-        <header className="detail-header">
+        <header className={styles['detail-header']}>
           <h1>{souvenir.titre}</h1>
-          <div className="divider"></div>
-          <p className="description">{souvenir.resume}</p>
+          <div className={styles.divider}></div>
+          <p className={styles.description}>{souvenir.resume}</p>
         </header>
 
-        <div className='article-text'>
-          <p style={{ display: 'block', lineHeight: '1.7', textAlign: 'justify', color : '' }}>{souvenir.texte}</p>
+        <div className={styles['article-text']}>
+          <p style={{ display: 'block', lineHeight: '1.7', textAlign: 'justify' }}>
+            {souvenir.texte}
+          </p>
         </div>
 
-        <div className="photo-mosaic">
+        <div className={styles['photo-mosaic']}>
           {photos.map((url, index) => (
-            <div key={index} className="photo-wrapper">
+            <div key={index} className={styles['photo-wrapper']}>
               <img 
                 src={url} 
                 alt={`${souvenir.titre} - vue ${index + 1}`} 
                 loading="lazy"
               />
-              
             </div>
           ))}
         </div>

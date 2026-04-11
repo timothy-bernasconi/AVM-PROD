@@ -2,48 +2,48 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import styles from './Header.module.scss'; 
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="header">
-      <div className="container">
-        <div className="header-logo">
+    <header className={styles.header}>
+      <div className={styles.container}>
+        <div className={styles['header-logo']}>
           <Link href="/">
             <img src="/assets/avm-logo-blanc.webp" alt="Logo AVM 74" />
           </Link>
         </div>
 
         <button
-          className="menu-toggle"
+          className={styles['menu-toggle']}
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? "✖" : "☰"}
         </button>
 
-        <div className={`list ${isOpen ? "open" : ""}`}>
+        <nav className={`${styles.list} ${isOpen ? styles.open : ""}`}>
           <ul>
             <li>
-              <Link href="/">Accueil</Link>
+              <Link href="/" onClick={() => setIsOpen(false)}>Accueil</Link>
             </li>
             <li>
-              <Link href="/association">L'association</Link>
+              <Link href="/association" onClick={() => setIsOpen(false)}>L'association</Link>
             </li>
             <li>
-              <Link href="/vehicule">Nos Véhicules</Link>
+              <Link href="/vehicule" onClick={() => setIsOpen(false)}>Nos Véhicules</Link>
             </li>
             <li>
-              <Link href="/souvenirs">Nos Souvenirs</Link>
+              <Link href="/souvenirs" onClick={() => setIsOpen(false)}>Nos Souvenirs</Link>
             </li>
             <li>
-              <Link href="/contact">Nous Rejoindre</Link>
+              <Link href="/contact" onClick={() => setIsOpen(false)}>Nous Rejoindre</Link>
             </li>
-            
           </ul>
-        </div>
+        </nav>
 
-        <div className={`social-media ${isOpen ? "open" : ""}`}>
+        <div className={`${styles['social-media']} ${isOpen ? styles.open : ""}`}>
           <ul>
             <li>
               <i className="fa-brands fa-instagram"></i>

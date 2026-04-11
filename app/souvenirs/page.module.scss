@@ -1,29 +1,25 @@
-// app/scss/pages/archives-page.scss
-
-@use '../_mixins.scss';
-@import '../variables.scss';
-
-
+@use '../../scss/mixins';
+@import '../../scss/variables.scss';
 
 .archives-page {
-  background-color: $bg-dark; // Un noir très sombre mais pas absolu
+  background-color: $bg-dark; 
   color: #e0e0e0;
   padding: 60px 30px;
 
   .archives-header {
     text-align: center;
     margin-bottom: 80px;
-    border-bottom: 2px solid #3d403d; // Ligne sombre et discrète
+    border-bottom: 2px solid #3d403d; 
     padding-bottom: 40px;
-    background-color: #1e1e1e00;
+    background-color: transparent;
 
     h1 {
       @include mixins.h1-style;
       
       span {
-        color: $text-grey; // Vert kaki militaire en accent
+        color: $text-grey; 
       }
-    }
+    } // <-- C'était ici qu'il manquait une fermeture
 
     p {
       color: #999;
@@ -47,38 +43,42 @@
   }
 
   .archive-item {
-    background: #1e1e1e; // Carte légèrement plus claire que le fond
+    background: #1e1e1e; 
     border: 1px solid #333;
-    border-radius: 0; // Pas d'arrondi, strict
+    border-radius: 0; 
     overflow: hidden;
     transition: all 0.3s ease;
     height: 100%;
 
     &:hover {
-      border-color: #7b8577; // Bordure kaki au survol
-      box-shadow: 0 10px 25px rgba(123, 133, 119, 0.15); // Ombre kaki discrète
+      border-color: #7b8577; 
+      box-shadow: 0 10px 25px rgba(123, 133, 119, 0.15); 
       transform: translateY(-5px);
+      
+      .image-container img {
+        transform: scale(1.05); // Petit effet sympa sur l'image au hover
+      }
     }
 
     .image-container {
       position: relative;
       height: 250px;
       overflow: hidden;
-      border-bottom: 4px solid #333; // Bande sombre et épaisse
+      border-bottom: 4px solid #333;
 
       img {
         width: 100%;
         height: 100%;
         object-fit: cover;
         transition: transform 0.5s ease;
-        filter: sepia(20%) contrast(105%); // Léger effet vintage documentaire
+        filter: sepia(20%) contrast(105%); 
       }
 
       .year-badge {
         position: absolute;
         top: 0;
-        left: 0; // Changé de côté pour le look "étiquette"
-        background: #7b8577; // Badge vert kaki
+        left: 0; 
+        background: #7b8577; 
         color: #fff;
         padding: 5px 15px;
         font-family: 'Courier New', monospace;
@@ -86,6 +86,7 @@
         font-size: 1.1rem;
         text-transform: uppercase;
         letter-spacing: 1px;
+        z-index: 10; // Pour être sûr qu'il passe devant l'image
       }
     }
 
@@ -106,7 +107,7 @@
         color: #bbb;
         line-height: 1.6;
         display: -webkit-box;
-        -webkit-line-clamp: 3; // On remet 3 lignes pour le contexte
+        -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
         overflow: hidden;
       }

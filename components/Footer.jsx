@@ -1,52 +1,57 @@
 import React from "react";
 import Link from "next/link"; 
+import styles from './Footer.module.scss'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="footer">
-      <div className="footer-container">
+    <footer className={styles.footer}>
+      <div className={styles['footer-container']}>
         
-        <div className="footer-main-content">
+        <div className={styles['footer-main-content']}>
           
-          <div className="brand-info">
-            <span className="brand-name">AVM 74</span> <br /> <br /> <br />
-            <span className="brand-tagline">Amicale des Véhicules Militaires de Haute-Savoie</span>
+          <div className={styles['brand-info']}>
+            <span className={styles['brand-name']}>AVM 74</span> <br /> <br /> <br />
+            <span className={styles['brand-tagline']}>Amicale des Véhicules Militaires de Haute-Savoie</span>
           </div>
      
-         
-          <div className="footer-links-wrapper">
-            <div className="footer-column">
-              <h3 className="footer-title">AVM74</h3>
+          <div className={styles['footer-links-wrapper']}>
+            <div className={styles['footer-column']}>
+              <h3 className={styles['footer-title']}>AVM74</h3>
               <ul>
-                <li><a href="#">L'Association</a></li>
-                <li><a href="#">Nos Véhicules</a></li>
-                <li><a href="#">Rassemblements</a></li>
-                <li><a href="#">Nos Souvenirs</a></li>
+                <li><Link href="/association">L'Association</Link></li>
+                <li><Link href="/vehicules">Nos Véhicules</Link></li>
+                <li><Link href="/rassemblements">Rassemblements</Link></li>
+                <li><Link href="/souvenirs">Nos Souvenirs</Link></li>
               </ul>
             </div>
-            <div className="footer-column">
-              <h3 className="footer-title">Légal</h3>
+            <div className={styles['footer-column']}>
+              <h3 className={styles['footer-title']}>Légal</h3>
               <ul>
-                <li><a href="#">Contact</a></li>
+                <li><Link href="/contact">Contact</Link></li>
                 <li><a href="#">Confidentialité</a></li>
               </ul>
             </div>
           </div> 
 
-          <div className="footer-brand">
+          <div className={styles['footer-brand']}>
             <Link href="/">
-              <img src="/assets/avm-logo-blanc.webp" alt="Logo AVM 74" className="footer-logo-large" />
+              <img 
+                src="/assets/avm-logo-blanc.webp" 
+                alt="Logo AVM 74" 
+                className={styles['footer-logo-large']} 
+              />
             </Link>
           </div>
         </div>
 
-        <hr className="footer-separator" />
+        <hr className={styles['footer-separator']} />
 
-        <div className="footer-legal-bar">
-          <p className="footer-copy">© {currentYear} AVM-74™. Tous droits réservés.</p>
-          <div className="footer-socials">
+        <div className={styles['footer-legal-bar']}>
+          <p className={styles['footer-copy']}>© {currentYear} AVM-74™. Tous droits réservés.</p>
+          <div className={styles['footer-socials']}>
+            
             <a href="#" aria-label="Facebook"><i className="fab fa-facebook"></i></a>
             <a href="#" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
           </div>
