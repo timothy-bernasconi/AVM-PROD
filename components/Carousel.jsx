@@ -26,7 +26,7 @@ const Carousel = () => {
   useEffect(() => {
     const timer = setInterval(nextSlide, 4000);
     return () => clearInterval(timer); 
-  }, [nextSlide]); // On retire currentSlide d'ici pour éviter de réinitialiser le timer à chaque seconde
+  }, [nextSlide]); 
 
   return (
     <section className={styles['carousel-fullscreen']}> 

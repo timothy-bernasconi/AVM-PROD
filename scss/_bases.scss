@@ -1,5 +1,6 @@
 
-@import 'variables.scss';
+@use "sass:color";
+@use 'variables.scss';
 
 .us-page, .history-page,
 .vehicules-page, 
@@ -16,7 +17,7 @@
     font-size: 3rem;
     margin-top: 0;        
     margin-bottom: 1.5rem; 
-    border-bottom: 3px solid $accent-gold;
+    border-bottom: 3px solid variables.$accent-gold;
     display: inline-block;
     text-align: center;
     line-height: 1.2;
@@ -26,7 +27,7 @@
     text-align: center;
     display: block;
     margin-bottom: 2rem;
-    color: $text-grey;
+    color: variables.$text-grey;
   }
 }
 
@@ -35,8 +36,8 @@
     font-size: 1.1rem;
     font-weight: 600;
     text-transform: uppercase;
-    color: $white;
-    background: linear-gradient(135deg, $accent-gold, lighten($accent-gold, 10%));
+    color: variables.$white;
+    background: linear-gradient(135deg, variables.$accent-gold, color.adjust(variables.$accent-gold, $lightness: 10%));
     border: none;
     border-radius: 12px;
     cursor: pointer;
@@ -46,7 +47,7 @@
     &:hover {
       transform: translateY(-3px);
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
-      background: linear-gradient(135deg, lighten($accent-gold, 5%), lighten($accent-gold, 20%));
+      background: linear-gradient(135deg, color.adjust(variables.$accent-gold, $lightness: 5%), color.adjust(variables.$accent-gold, $lightness: 20%));
     }
 
     &:active {

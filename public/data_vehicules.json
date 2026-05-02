@@ -335,6 +335,46 @@
      
     ],
   "texte": "En 1944, la Willys MB n'est plus seulement un véhicule, c'est une machine de guerre parfaitement rodée qui déferle sur les routes d'Europe. Cette version de 1944 intègre toutes les petites améliorations dictées par l'expérience du front : des supports d'outils optimisés, un éclairage 'blackout' perfectionné et une robustesse à toute épreuve. Elle est le symbole de l'industrie américaine tournant à plein régime pour la Libération. Du bocage normand aux ponts du Rhin, elle a transporté les plus grands généraux comme les simples soldats, se jouant de la boue et des décombres avec une agilité déconcertante. Sa présence sur le terrain était la garantie d'une liaison rapide et d'une polyvalence tactique qui a constamment pris l'ennemi de vitesse. Posséder un modèle de 1944, c'est détenir un morceau d'histoire ayant vécu les heures les plus décisives du second conflit mondial."
+},
+
+{
+  "id": 10,
+  "nom": "Harley-Davidson WLA",
+  "categorie": "Moto",
+  "image": "/assets/vehicule/harley-alex.jpeg",
+  "description": "Surnommée 'The Liberator', cette moto robuste a servi sur tous les fronts pour les missions d'estafette et de reconnaissance.",
+  "origine": "/assets/drapeaux/drapeau-des-usa.jpg",
+  "proprietaire": "Alex",
+  "caracteristiques": {
+    "annee": 1942,
+    "moteur": "V-Twin à 45° (Flathead)",
+    "cylindree": "740 cm³ (45 ci)",
+    "puissance": "25ch à 4500 tr/min",
+    "vitesse": 105,
+    "poids": 250,
+    "transmission": "3 vitesses (commande manuelle)",
+    "conso": "6l à 8l",
+    "autonomie": 220
+  },
+  "equipements": [
+    "Porte-bagages renforcé",
+    "Filtre à air à bain d'huile",
+    "Phares de type 'Blackout'"
+  ],
+
+  "images" : [
+      "/assets/vehicule/harley-alex.jpeg",
+      "/assets/vehicule/harley-alex.jpeg",
+      "/assets/vehicule/harley-alex.jpeg",
+      "/assets/vehicule/harley-alex.jpeg",
+      "/assets/vehicule/harley-alex.jpeg",
+      "/assets/vehicule/harley-alex.jpeg"
+     
+     
+    ],
+
+  "texte": "Éclaireur infatigable des colonnes alliées, la Harley-Davidson WLA a conquis ses galons de noblesse dans la boue et la poussière des champs de bataille. Conçue pour une fiabilité absolue, elle abandonne tout luxe pour se concentrer sur l'essentiel : porter les ordres prioritaires là où aucun véhicule lourd ne peut s'aventurer. Son moteur en V à soupapes latérales, reconnaissable à son martèlement caractéristique, est devenu le battement de cœur de la liberté retrouvée lors de l'entrée des troupes dans les villes libérées. Équipée de son fourreau en cuir pour le célèbre Thompson et de ses sacoches de toile, elle incarne l'esprit d'indépendance et d'audace des soldats de l'ombre. Aujourd'hui, chaque WLA encore en mouvement est un hommage vivant à la vitesse et au courage qui ont permis de maintenir le lien vital entre les unités au plus fort de la tourmente."
 }
+
 
 ]

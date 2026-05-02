@@ -1,10 +1,9 @@
-@import '../scss/variables.scss';
+@use '../scss/variables.scss';
 
-// On change "header" par ".header"
 .header {
-  background-color: $primary-green;
+  background-color: variables.$primary-green;
   padding: 0px 50px;
-  border-bottom: 3px solid $accent-gold;
+  border-bottom: 3px solid variables.$accent-gold;
 
   .container {
     display: grid;
@@ -13,10 +12,11 @@
     column-gap: 30px;
   }
 
-  // Maintenant "a" est autorisé car il est imbriqué dans ".header"
+
   a {
     text-decoration: none;
     color: white;
+    text-transform: uppercase;
   }
 
   .header-logo img {
@@ -35,13 +35,13 @@
     }
 
     li {
-      color: $white;
+      color: variables.$white;
       cursor: pointer;
       font-weight: bold;
       transition: color 0.3s;
 
       &:hover {
-        color: $hover-gold;
+        color: variables.$hover-gold;
       }
     }
   }
@@ -49,20 +49,20 @@
   .social-media {
     ul {
       display: flex;
-      gap: 15px;
+      gap: 1.5rem;
       list-style: none;
       padding: 0;
-      margin: 0;
+      margin: 0 4rem;
     }
 
     li {
-      color: $white;
+      color: variables.$white;
       font-size: 1.5rem;
       cursor: pointer;
       transition: color 0.3s;
 
       &:hover {
-        color: $hover-gold;
+        color: variables.$hover-gold;
       }
     }
   }
@@ -73,8 +73,64 @@
     font-size: 2rem;
     background: none;
     border: none;
-    color: $white;
+    color: variables.$white;
     cursor: pointer;
     z-index: 10;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .header {
+     padding: 0 20px;
+  
+   
+
+    .menu-toggle {
+      display: block; 
+      grid-column: 3; 
+    }
+
+    .list, .social-media {
+      position: fixed;
+      top: 95px; 
+      left: -100%; 
+      width: 100%;
+      height: calc(100vh - 95px);
+      background-color: variables.$primary-green;
+      transition: 0.4s ease-in-out;
+      z-index: 5;
+      
+      &.open {
+        left: 0; 
+      }
+    }
+
+    .list {
+      ul {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        gap: 40px;
+        font-size: 1.5rem;
+      }
+    }
+
+    .social-media {
+      top: auto;
+      bottom: 0;
+      height: 100px;
+      justify-content: center;
+      background: none; 
+      
+      &.open {
+        left: 0;
+        display: flex;
+      }
+
+      ul {
+        margin: 0;
+      }
+    }
   }
 }

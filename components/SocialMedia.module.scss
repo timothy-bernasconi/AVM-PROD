@@ -1,0 +1,115 @@
+@use '../scss/mixins' as mixins;
+@import '../scss/variables.scss';
+
+.social-media-page {
+
+   position: relative;
+  width: 100%;
+  padding: 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+
+  h2{
+     @include mixins.h1-style;
+     color: #000000;
+     text-decoration: none;
+  }
+  img {
+    height: 200px;
+    width: 320px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    transition: 0.3s ease;
+    margin-top: 2rem;
+  
+  }
+
+  img:hover {
+    transform: scale(1.02);
+  }
+
+  .wrapper-social-media {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-top: 1rem;
+    max-width: 1000px;
+  }
+
+  a {
+    color: #000000;
+  }
+
+  .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+  i{
+    font-size: 1.5rem;
+    margin-left: 15px;
+    margin-top: 2rem;
+ 
+    
+  }
+   
+  }
+}
+
+@media (max-width:660px) {
+.social-media-page {
+  text-align: center;
+}
+
+}
+
+/* --- RESPONSIVE --- */
+
+@media (max-width: 1024px) {
+  .social-media-page {
+    .wrapper-social-media {
+      grid-template-columns: repeat(2, 1fr); // 2 colonnes pour tablettes
+      gap: 20px;
+      padding: 0 1rem;
+    }
+    
+    img {
+      width: 100%; // L'image prend toute la largeur de sa cellule
+      height: auto; // Garde les proportions
+      max-width: 350px; 
+    }
+  }
+}
+
+@media (max-width: 660px) {
+  .social-media-page {
+    padding: 3rem 1rem;
+    text-align: center;
+
+    h2 {
+      font-size: 1.8rem; // On réduit un peu le titre sur mobile
+    }
+
+    .wrapper-social-media {
+      grid-template-columns: 1fr; // 1 seule colonne sur mobile
+      gap: 15px;
+    }
+
+    img {
+      height: auto;
+      width: 90%; // On laisse un peu d'espace sur les côtés
+      margin-top: 1rem;
+    }
+
+    .link i {
+      font-size: 2rem; // On agrandit les icônes pour faciliter le clic au doigt
+      margin: 1.5rem 10px 0; 
+    }
+  }
+}

@@ -45,6 +45,7 @@ const Countdown = () => {
   }
 
   return (
+  
     <div className={styles['countdown-container']}>
       <div className={styles.countdown}>
         <TimeUnit label="Jours" value={timeLeft.days} />
@@ -53,6 +54,7 @@ const Countdown = () => {
         <TimeUnit label="Secondes" value={timeLeft.seconds} />
       </div>
     </div>
+  
   );
 };
 

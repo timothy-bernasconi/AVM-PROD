@@ -1,13 +1,13 @@
-@import '../scss/variables.scss';
+@use '../scss/variables.scss';
 
 
 .footer {
-  background-color: $primary-green;
+  background-color: variables.$primary-green;
   padding: 4rem 2rem 2rem;
-  color: $white;
+  color: variables.$white;
   width: 100%;
   box-sizing: border-box;
-  border-top: 3px solid $accent-gold;
+  border-top: 3px solid variables.$accent-gold;
 
   .footer-container {
     max-width: 1200px;
@@ -51,7 +51,7 @@
       }
       .brand-tagline {
         font-size: 0.9rem;
-        color: rgba($white, 0.6);
+        color: rgba(variables.$white, 0.6);
         margin-top: 5px;
       }
     }
@@ -73,7 +73,7 @@
       text-transform: uppercase;
       letter-spacing: 1px;
       margin-bottom: 2rem;
-      color: $white;
+      color: variables.$white;
     }
     ul {
       list-style: none;
@@ -82,11 +82,11 @@
       li {
         margin-bottom: 0.8rem;
         a {
-          color: rgba($white, 0.7);
+          color: rgba(variables.$white, 0.7);
           text-decoration: none;
           font-size: 0.95rem;
           transition: color 0.3s ease;
-          &:hover { color: $hover-gold; }
+          &:hover { color: variables.$hover-gold; }
         }
       }
     }
@@ -104,17 +104,17 @@
     align-items: center;
     .footer-copy {
       font-size: 0.85rem;
-      color: rgba($white, 0.5);
+      color: rgba(variables.$white, 0.5);
     }
     .footer-socials {
       display: flex;
       gap: 1.5rem;
       a {
-        color: rgba($white, 0.7);
+        color: rgba(variables.$white, 0.7);
         font-size: 1.4rem;
         transition: transform 0.3s ease, color 0.3s ease;
         &:hover {
-          color: $white;
+          color: variables.$white;
           transform: translateY(-3px);
         }
       }

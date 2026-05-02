@@ -1,10 +1,11 @@
 .countdown-container {
   font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  
 }
 
 .countdown {
@@ -14,7 +15,8 @@
 }
 
 .time {
-  background-color: #343a2a;
+  background-color: #254025;
+  border: 1px solid rgba(255, 255, 255, 0.532);
   padding: 20px;
   border-radius: 6px;
   text-align: center;
@@ -54,3 +56,5 @@
   .countdown { gap: 10px; flex-wrap: wrap; justify-content: center; }
   .time { flex: 0 0 calc(50% - 10px); min-width: 0; padding: 15px 0;}
   .number { height: 32px; font-size: 28px; }}
+
+  

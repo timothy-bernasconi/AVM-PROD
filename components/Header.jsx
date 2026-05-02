@@ -45,12 +45,9 @@ const Header = () => {
 
         <div className={`${styles['social-media']} ${isOpen ? styles.open : ""}`}>
           <ul>
-            <li>
-              <i className="fa-brands fa-instagram"></i>
-            </li>
-            <li>
-              <i className="fa-brands fa-facebook"></i>
-            </li>
+            <a href="https://www.facebook.com/profile.php?id=100069083198930"><li><i className="fa-brands fa-instagram"></i></li></a>
+            <a href="https://www.facebook.com/profile.php?id=100069083198930"><li><i className="fa-brands fa-facebook"></i>
+            </li></a>
           </ul>
         </div>
       </div>

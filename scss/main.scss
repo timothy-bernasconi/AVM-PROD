@@ -1,15 +1,16 @@
 @use 'mixins';
-@import 'variables.scss';
-@import '_bases.scss';
-@import '../../avm/components/Header.module.scss';
-@import '../../avm/components/Footer.module.scss';
-@import '../../avm/components/Carousel.module.scss';
-@import 'pages/home';
-@import 'pages/us';
-@import 'pages/vehicules';
-@import 'pages/meetings';
-@import 'pages/association';
-@import 'pages/social-media';
+@use "sass:meta";
+@use 'variables.scss';
+@use '_bases.scss';
+@use '../../avm/components/Header.module.scss';
+@use '../../avm/components/Footer.module.scss';
+@use '../../avm/components/Carousel.module.scss';
+@use '../../avm/components/HomeSection.module.scss';
+@use 'pages/us';
+@use '../../avm/components/Vehicule.module.scss';
+@use '../../avm/components/Meeting.module.scss';
+@use '../../avm/components/Association.module.scss';
+@use '../../avm/components/SocialMedia.module.scss';
 
 
 
@@ -24,4 +25,4 @@ html, body {
   font-family: sans-serif;
 }
 
-@import 'responsive';
+@include meta.load-css('responsive');
