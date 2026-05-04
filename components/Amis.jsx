@@ -6,9 +6,15 @@ const amis = [
         id: 1, nom : 'Gruppo Storico 2194', logo : "/assets/amis/gruppo-storico.png"
     },
 
-    {id : 2, nom : "Test", logo : "/assets/amis/test.webp"},
+    {id : 2, nom : "Atlantique 44", logo : "/assets/amis/atlantique44.svg"},
 
-    {id : 3, nom : "Test", logo : "/assets/amis/test2.png"}
+    {id : 3, nom : "Provence 44", logo : "/assets/amis/provence44.svg"},
+
+    {id : 4, nom : "Blue & White Devils 74", logo : "/assets/amis/blue-devils.svg"},
+
+    {id : 5, nom : "Jeep Sud-Est", logo : "/assets/amis/jeep-sud-est.svg"},
+
+
 ]
 
 const Amis = () => {

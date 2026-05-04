@@ -1,5 +1,5 @@
 @use '../scss/mixins' as mixins;
-@import '../scss/variables.scss';
+@use '../scss/variables.scss' as *;
 
 .association-page {
   background: linear-gradient(135deg, #1a2a1a 0%, #2a3a2a 50%, #3f5f3f 100%);

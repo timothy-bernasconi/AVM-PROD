@@ -1,5 +1,5 @@
 @use '../scss/mixins' as mixins;
-@import '../scss/variables.scss';
+@use '../scss/variables.scss' as *;
 
 .social-media-page {
 
@@ -69,19 +69,19 @@
 
 }
 
-/* --- RESPONSIVE --- */
+
 
 @media (max-width: 1024px) {
   .social-media-page {
     .wrapper-social-media {
-      grid-template-columns: repeat(2, 1fr); // 2 colonnes pour tablettes
+      grid-template-columns: repeat(2, 1fr);
       gap: 20px;
       padding: 0 1rem;
     }
     
     img {
-      width: 100%; // L'image prend toute la largeur de sa cellule
-      height: auto; // Garde les proportions
+      width: 100%; 
+      height: auto; 
       max-width: 350px; 
     }
   }
@@ -93,22 +93,22 @@
     text-align: center;
 
     h2 {
-      font-size: 1.8rem; // On réduit un peu le titre sur mobile
+      font-size: 1.8rem; 
     }
 
     .wrapper-social-media {
-      grid-template-columns: 1fr; // 1 seule colonne sur mobile
+      grid-template-columns: 1fr; 
       gap: 15px;
     }
 
     img {
       height: auto;
-      width: 90%; // On laisse un peu d'espace sur les côtés
+      width: 90%; 
       margin-top: 1rem;
     }
 
     .link i {
-      font-size: 2rem; // On agrandit les icônes pour faciliter le clic au doigt
+      font-size: 2rem;
       margin: 1.5rem 10px 0; 
     }
   }

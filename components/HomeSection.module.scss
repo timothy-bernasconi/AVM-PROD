@@ -1,5 +1,5 @@
 @use '../scss/mixins';
-@use '../scss/variables.scss';
+@use '../scss/variables.scss' as *;
 
 
 
@@ -35,8 +35,8 @@
   }
 
   h1 {  @include mixins.h1-style; font-size: 5rem;  animation-duration: 0.7s; animation-name : slidein; }
-  h2 { font-size: 2rem; color: variables.$accent-gold; border: none; margin: 0; animation-duration: 0.8s; animation-name: bounce; }
-  p { font-size: 1.5rem; color: variables.$white; max-width: 800px; margin: 0; animation-duration: 0.8s; animation-name: bounce; }
+  h2 { font-size: 2rem; color: $accent-gold; border: none; margin: 0; animation-duration: 0.8s; animation-name: bounce; }
+  p { font-size: 1.5rem; color: $white; max-width: 800px; margin: 0; animation-duration: 0.8s; animation-name: bounce; }
 }
 
 .buttons {
@@ -53,19 +53,19 @@
   border-radius: 5px;
   border: none;
   padding: 0 25px;
-  color: variables.$white;
+  color: $white;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .full { 
-  background-color: variables.$accent-gold; 
+  background-color: $accent-gold; 
   &:hover { opacity: 0.9; transform: translateY(-2px); }
 }
 
 .empty {
   background-color: transparent;
-  border: 2px solid variables.$white;
+  border: 2px solid $white;
   &:hover { background: rgba(255,255,255,0.1); }
 }
 

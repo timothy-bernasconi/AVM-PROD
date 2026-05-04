@@ -1,48 +1,129 @@
-"use client";
+'use client';
+
+import { useState, useEffect } from 'react';
 import styles from './page.module.scss';
-import React, { useRef } from 'react';
 
-const ContactForm = () => {
-  const form = useRef();
+function MyForm() {
 
-  const sendEmail = (e) => {
+  const [name, setName] = useState("");
+  const [firstName, setFirstName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [phone,setPhone] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [status, setStatus] = useState("");
+  const [honeypot, setHoneypot] = useState("");
+  const [captchaAnswer, setCaptchaAnswer] = useState("");
+  const [securityNum, setSecurityNum] = useState({ a: 0, b: 0 });
+
+
+  useEffect(() => {
+    setSecurityNum({
+      a: Math.floor(Math.random() * 10),
+      b: Math.floor(Math.random() * 5)
+    });
+  }, []);
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // N'oublie pas d'importer emailjs si tu ne l'as pas encore fait
-    emailjs.sendForm('VOTRE_SERVICE_ID', 'VOTRE_TEMPLATE_ID', form.current, 'VOTRE_PUBLIC_KEY')
-      .then(() => alert("Demande envoyée !"))
-      .catch((err) => alert("Erreur : " + err.text));
+
+
+    if (honeypot !== "") return;
+
+
+    if (parseInt(captchaAnswer) !== securityNum.a + securityNum.b) {
+      setStatus("Le résultat du calcul est incorrect.");
+      return;
+    }
+
+    setLoading(true);
+    setStatus("Envoi en cours...");
+
+    const formData = { name, firstName, email, phone, message };
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setStatus("Message envoyé avec succès !");
+  
+        setName(""); setFirstName(""); setCompany(""); 
+        setEmail(""); setEmail(""); setMessage(""); setCaptchaAnswer("");
+      } else {
+        setStatus("Erreur lors de l'envoi du message.");
+      }
+    } catch (error) {
+      setStatus("Erreur de connexion au serveur.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
-    <section className={styles['contact-page']}>
-      <div className={styles['contact-intro']}>
-        <h1>Contactez-Nous</h1>
-        <p>Vous souhaitez en savoir plus ou rejoindre l'AVM-74 ? Remplissez ce formulaire</p>
-      </div>
-      
-      <div className={styles['contact-container']}>
-        <form ref={form} onSubmit={sendEmail} className={styles['contact-form']}>
-          
-          <div className={styles.row}>
-            <input type="text" name="user_nom" placeholder="Nom" required />
-            <input type="text" name="user_prenom" placeholder="Prénom" required />
-          </div>
+    <div className={styles.group}>
 
-          <div style={{ marginBottom: '15px' }}>
-            <input type="email" name="user_email" placeholder="Email" required />
-          </div>
+      <h1>Formulaire de contact</h1>
+      <form className={styles.wrapper} onSubmit={handleSubmit}>
+        
+   
+        <div style={{ display: 'none' }} aria-hidden="true">
+          <input 
+            type="text" 
+            value={honeypot} 
+            onChange={(e) => setHoneypot(e.target.value)} 
+            tabIndex="-1" 
+            autoComplete="off" 
+          />
+        </div>
 
-          <div style={{ marginBottom: '15px' }}>
-            <input type="tel" name="user_phone" placeholder="Téléphone" />
-          </div>
+        <label className={styles.input}>Nom *
+          <input type="text" value={name} onChange={(e) => setName(e.target.value)} required />
+        </label>
 
-          <textarea name="message" placeholder="Parlez-nous de votre passion pour les véhicules militaires..."></textarea>
-          
-          <button type="submit">Envoyer ma demande</button>
-        </form>
-      </div>
-    </section>
+        <label className={styles.input}>Prénom *
+          <input type="text" value={firstName} onChange={(e) => setFirstName(e.target.value)} required />
+        </label>
+
+        <label className={styles.input}>Email *
+          <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+        </label>
+
+           <label className={styles.input}>Téléphone *
+          <input type="text" value={phone} onChange={(e) => setPhone(e.target.value)} required />
+        </label>
+
+
+        <label className={styles.fieldLabel}> Votre message *
+          <textarea className={styles.textareaField} value={message} onChange={(e) => setMessage(e.target.value)} rows="3" required></textarea>
+        </label>
+
+        <label className={styles.input} style={{ marginTop: '10px', borderTop: '1px solid #eee', paddingTop: '15px' }}>
+          Sécurité : Combien font {securityNum.a} + {securityNum.b} ? *
+          <input 
+            type="number" 
+            value={captchaAnswer} 
+            onChange={(e) => setCaptchaAnswer(e.target.value)} 
+            required 
+            placeholder="Réponse"
+          />
+        </label>
+
+        <button type="submit" className={styles.btn} disabled={loading}>
+          {loading ? "Envoi..." : "Envoyer"}
+        </button>
+        
+        {status && (
+          <p className={`${styles.statusMessage} ${status.includes('succès') ? styles.success : ''}`}>
+            {status}
+          </p>
+        )}
+      </form>
+    </div>
   );
-};
+}
 
-export default ContactForm;
+export default MyForm;
