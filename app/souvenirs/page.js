@@ -1,4 +1,3 @@
-import React from 'react';
 import dataArchives from '@/public/data_archives.json';
 import Link from 'next/link';
 import styles from './page.module.scss';

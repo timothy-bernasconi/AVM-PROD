@@ -1,7 +1,9 @@
+import React from 'react';
 import dataArchives from '@/public/data_archives.json';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import styles from './page.module.scss';
+import Galerie from './Galerie'; 
 
 export default async function FicheArchive({ params }) {
   const { id } = await params;
@@ -30,17 +32,9 @@ export default async function FicheArchive({ params }) {
           </p>
         </div>
 
-        <div className={styles['photo-mosaic']}>
-          {photos.map((url, index) => (
-            <div key={index} className={styles['photo-wrapper']}>
-              <img 
-                src={url} 
-                alt={`${souvenir.titre} - vue ${index + 1}`} 
-                loading="lazy"
-              />
-            </div>
-          ))}
-        </div>
+        {/* On passe les données au composant client pour la gestion du clic */}
+        <Galerie photos={photos} titre={souvenir.titre} />
+        
       </div>
     </main>
   );

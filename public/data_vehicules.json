@@ -4,13 +4,13 @@
     "id": 1,
     "nom": "Jeep Ford GPW",
     "categorie": "Jeep",
-    "image": "/assets/vehicule/jeep-ford.jpg",
+    "image": "/assets/vehicule/jeep-ford.webp",
     "description": "Jeep Américaine produite durant la Seconde Guerre Mondiale",
     "origine" : "/assets/drapeaux/drapeau-des-usa.jpg",
     "proprietaire" : "Samuel",
     "caracteristiques": {
       "annee": 1941,
-      "moteur": "Willys L134 'Go Devil' ",
+      "moteur": "Ford L134 'Go Devil' ",
       "cylindree" : "4 cylindres en ligne, soupapes latérales",
       "puissance" : "60ch à 4000 tr/min",
       "vitesse" : 105,
@@ -21,21 +21,21 @@
     },
     "equipements": ["éclairage de combat", "pare-brise rabattable"],
     "images" : [
-      "/assets/vehicule/jeep-ford.jpg",
-      "/assets/vehicule/jeep-ford.jpg",
-      "/assets/vehicule/jeep-ford.jpg",
-      "/assets/vehicule/jeep-ford.jpg",
-      "/assets/vehicule/jeep-ford.jpg",
-      "/assets/vehicule/jeep-ford.jpg"
+      "/assets/vehicule/jeep-ford.webp",
+      "/assets/vehicule/jeep-ford.webp",
+      "/assets/vehicule/jeep-ford.webp",
+      "/assets/vehicule/jeep-ford.webp",
+      "/assets/vehicule/jeep-ford.webp",
+      "/assets/vehicule/jeep-ford.webp"
     ],
     "texte" : "Déployée sur tous les théâtres d'opérations entre 1941 et 1945, la Ford GPW incarne l'effort industriel colossal des États-Unis durant le second conflit mondial. Fruit d'une standardisation imposée par l'état-major, ce véhicule de reconnaissance a su s'imposer par sa polyvalence légendaire et sa capacité à franchir les terrains les plus hostiles, des sables d'Afrique du Nord aux forêts ardennaises. Si elle partage ses lignes avec la célèbre Willys, la version produite par Ford porte en elle l'ADN de la firme de Dearborn, avec ses méthodes de fabrication en grande série qui ont permis d'inonder les lignes de front. Surnommée la 'bonne à tout faire' des armées alliées, elle a servi de lien vital pour les transmissions, le transport d'officiers et l'évacuation rapide des blessés sous le feu. Aujourd'hui, posséder une GPW revient à détenir un fragment authentique de l'histoire, un témoin d'acier qui a survécu aux épreuves du temps pour devenir une icône culturelle mondiale. Sa silhouette basse et son allure robuste rappellent une époque où l'ingénierie devait répondre à l'urgence absolue de la liberté."
   },
 
   {
     "id": 2,
-    "nom": "Weasel",
+    "nom": "Weasel M29C",
     "categorie": "Chenillette",
-    "image": "/assets/vehicule/weasel.jpg",
+    "image": "/assets/vehicule/weasel.webp",
     "description": "Petit transporteur chenillé américain conçu pour évoluer sur du terrain difficile",
     "origine" : "/assets/drapeaux/drapeau-des-usa.jpg",
     "proprietaire" : "Samuel",
@@ -57,12 +57,12 @@
   "Capotage en toile amovible"
 ],
 "images" : [
-      "/assets/vehicule/weasel.jpg",
-      "/assets/vehicule/weasel.jpg",
-      "/assets/vehicule/weasel.jpg",
-      "/assets/vehicule/weasel.jpg",
-      "/assets/vehicule/weasel.jpg",
-      "/assets/vehicule/weasel.jpg"
+      "/assets/vehicule/weasel.webp",
+      "/assets/vehicule/weasel.webp",
+      "/assets/vehicule/weasel.webp",
+      "/assets/vehicule/weasel.webp",
+      "/assets/vehicule/weasel.webp",
+      "/assets/vehicule/weasel.webp"
      
 ],
 
@@ -72,15 +72,15 @@
 
   {
     "id": 3,
-    "nom": "Dodge WC",
+    "nom": "Dodge WC 52",
     "categorie": "Camion",
-    "image": "/assets/vehicule/dodge.jpg",
+    "image": "/assets/vehicule/dodge.webp",
     "description": "Véhicule de transport polyvalent et robuste de l'armée américaine",
     "origine" : "/assets/drapeaux/drapeau-des-usa.jpg",
     "proprietaire" : "Samuel",
     "caracteristiques": {
       "annee": 1941,
-      "moteur": "Chrysler T-214",
+      "moteur": "Dodge",
       "cylindree": "6 cylindres en ligne, soupapes latérales",
       "puissance": "92ch à 3200 tr/min",
       "vitesse": 85,
@@ -96,12 +96,12 @@
       "Banquettes latérales bois"
     ],
     "images" : [
-      "/assets/vehicule/dodge.jpg",
-      "/assets/vehicule/dodge.jpg",
-      "/assets/vehicule/dodge.jpg",
-      "/assets/vehicule/dodge.jpg",
-      "/assets/vehicule/dodge.jpg",
-      "/assets/vehicule/dodge.jpg"
+      "/assets/vehicule/dodge.webp",
+      "/assets/vehicule/dodge.webp",
+      "/assets/vehicule/dodge.webp",
+      "/assets/vehicule/dodge.webp",
+      "/assets/vehicule/dodge.webp",
+      "/assets/vehicule/dodge.webp"
     ],
     "texte" : "Épine dorsale de la logistique mobile américaine, le Dodge WC s'est imposé comme l'intermédiaire indispensable entre la Jeep et les camions lourds durant le second conflit mondial. Sa robustesse légendaire et sa transmission intégrale lui ont permis de projeter hommes et matériel au plus près des lignes de front, quel que soit l'état des routes européennes ou pacifiques. Surnommé 'Beep' pour Big Jeep par les troupes, il a été décliné en une multitude de versions spécialisées, du transport d'infanterie aux ambulances, prouvant une polyvalence mécanique inégalée. Sa silhouette massive et ses larges pneus à profil combat restent indissociables des colonnes de la Libération traversant les villages dévastés. Aujourd'hui, le Dodge incarne la puissance industrielle brute et la fiabilité mécanique qui ont assuré la victoire alliée sur tous les terrains d'opérations."
 },
@@ -110,7 +110,7 @@
   "id": 4,
   "nom": "Hotchkiss Jeep M201",
   "categorie": "Jeep",
-  "image": "/assets/vehicule/jeep-bruno1.jpg",
+  "image": "/assets/vehicule/jeep-bruno1.webp",
   "description": "Version produite sous licence en France, l'héritière directe de la célèbre Willys MB de la Seconde Guerre mondiale.",
   "origine": "/assets/drapeaux/drapeau-france.png",
   "proprietaire": "Bruno",
@@ -133,12 +133,12 @@
   ],
 
    "images" : [
-      "/assets/vehicule/jeep-bruno1.jpg",
-      "/assets/vehicule/jeep-bruno1.jpg",
-      "/assets/vehicule/jeep-bruno1.jpg",
-      "/assets/vehicule/jeep-bruno1.jpg",
-      "/assets/vehicule/jeep-bruno1.jpg",
-      "/assets/vehicule/jeep-bruno1.jpg"
+      "/assets/vehicule/jeep-bruno1.webp",
+      "/assets/vehicule/jeep-bruno1.webp",
+      "/assets/vehicule/jeep-bruno1.webp",
+      "/assets/vehicule/jeep-bruno1.webp",
+      "/assets/vehicule/jeep-bruno1.webp",
+      "/assets/vehicule/jeep-bruno1.webp"
       
     ],
   "texte": "Héritière directe de la légendaire Willys MB, la Hotchkiss Jeep M201 a constitué le fer de lance de la cavalerie légère française durant les décennies de la reconstruction. Si elle conserve la silhouette iconique et la rusticité de son aînée américaine, elle se distingue par sa fabrication sous licence française, optimisée pour répondre aux exigences des théâtres d'opérations d'après-guerre. Véritable symbole de liberté et de mobilité tout-terrain, elle a gravi les sommets les plus escarpés et traversé les sables les plus arides, prouvant que son architecture compacte reste indétrônable en zone difficile. Son passage au standard électrique 24V et ses renforts mécaniques en ont fait une machine de liaison et de reconnaissance d'une fiabilité exemplaire, capable de traverser les époques sans prendre une ride. Aujourd'hui, la M201 n'est plus seulement un véhicule militaire, mais une icône du patrimoine mécanique, témoignant de la pérennité d'un concept qui a révolutionné le transport tactique mondial."
@@ -148,8 +148,8 @@
   {
   "id": 5,
   "nom": "Half-Track M16",
-  "categorie": "Blindé antiaérien",
-  "image": "/assets/vehicule/half-track-m16.jpg",
+  "categorie": "Blindé",
+  "image": "/assets/vehicule/half-track-m16.webp",
   "description": "Surnommé le 'Meat Chopper' (hachoir à viande), ce véhicule semi-chenillé est équipé d'une tourelle Maxson quadruple.",
   "origine": "/assets/drapeaux/drapeau-des-usa.jpg",
   "proprietaire": "Remi",
@@ -172,12 +172,12 @@
   ],
 
   "images" : [
-      "/assets/vehicule/half-track-m16.jpg",
-      "/assets/vehicule/half-track-m16.jpg",
-      "/assets/vehicule/half-track-m16.jpg",
-      "/assets/vehicule/half-track-m16.jpg",
-      "/assets/vehicule/half-track-m16.jpg",
-      "/assets/vehicule/half-track-m16.jpg"
+      "/assets/vehicule/half-track-m16.webp",
+      "/assets/vehicule/half-track-m16.webp",
+      "/assets/vehicule/half-track-m16.webp",
+      "/assets/vehicule/half-track-m16.webp",
+      "/assets/vehicule/half-track-m16.webp",
+      "/assets/vehicule/half-track-m16.webp"
     ],
 
   "texte": "Véritable forteresse mobile, le Half-Track M16 a redéfini la protection antiaérienne rapprochée des colonnes blindées alliées. Sa tourelle quadruple, capable de saturer le ciel de plomb en quelques secondes, s'est avérée tout aussi redoutable lors des combats terrestres pour briser les contre-attaques adverses. Alliance parfaite entre la traction du camion et le franchissement du char, il incarne l'ingéniosité technique américaine face aux nécessités de la guerre moderne. Son profil hybride, reconnaissable entre mille avec ses rouleaux de franchissement et ses chenilles arrière, demeure le symbole de la logistique offensive qui a balayé l'Europe. Aujourd'hui, le rugissement de son moteur White et la silhouette massive de ses mitrailleuses jumelées rappellent la puissance de feu démesurée qui a protégé les libérateurs du ciel comme de la terre."
@@ -187,7 +187,7 @@
   "id": 6,
   "nom": "Dodge WC 52",
   "categorie": "Camion",
-  "image": "/assets/vehicule/dodge-wc-52.jpg",
+  "image": "/assets/vehicule/dodge-wc-52.webp",
   "description": "Version équipée d'un treuil du célèbre 'Beep', conçu pour le transport d'armes et de troupes sur tous les terrains.",
   "origine": "/assets/drapeaux/drapeau-des-usa.jpg",
   "proprietaire": "Remi",
@@ -210,12 +210,12 @@
   ],
 
    "images" : [
-      "/assets/vehicule/dodge-wc-52.jpg",
-      "/assets/vehicule/dodge-wc-52.jpg",
-      "/assets/vehicule/dodge-wc-52.jpg",
-      "/assets/vehicule/dodge-wc-52.jpg",
-      "/assets/vehicule/dodge-wc-52.jpg",
-      "/assets/vehicule/dodge-wc-52.jpg"
+      "/assets/vehicule/dodge-wc-52.webp",
+      "/assets/vehicule/dodge-wc-52.webp",
+      "/assets/vehicule/dodge-wc-52.webp",
+      "/assets/vehicule/dodge-wc-52.webp",
+      "/assets/vehicule/dodge-wc-52.webp",
+      "/assets/vehicule/dodge-wc-52.webp"
      
     ],
 
@@ -226,7 +226,7 @@
   "id": 7,
   "nom": "Harley-Davidson WLA",
   "categorie": "Moto",
-  "image": "/assets/vehicule/harley.jpg",
+  "image": "/assets/vehicule/harley.webp",
   "description": "Surnommée 'The Liberator', cette moto robuste a servi sur tous les fronts pour les missions d'estafette et de reconnaissance.",
   "origine": "/assets/drapeaux/drapeau-des-usa.jpg",
   "proprietaire": "Hedy",
@@ -248,12 +248,12 @@
   ],
 
   "images" : [
-      "/assets/vehicule/harley.jpg",
-      "/assets/vehicule/harley.jpg",
-     "/assets/vehicule/harley.jpg",
-     "/assets/vehicule/harley.jpg",
-     "/assets/vehicule/harley.jpg",
-   "/assets/vehicule/harley.jpg"
+      "/assets/vehicule/harley.webp",
+      "/assets/vehicule/harley.webp",
+      "/assets/vehicule/harley.webp",
+      "/assets/vehicule/harley.webp",
+      "/assets/vehicule/harley.webp",
+      "/assets/vehicule/harley.webp"
      
     ],
 
@@ -264,7 +264,7 @@
   "id": 8,
   "nom": "Willys MB Jeep",
   "categorie": "Jeep",
-  "image": "/assets/vehicule/willys-mb.jpg",
+  "image": "/assets/vehicule/willys-mb.webp",
   "description": "Icône mondiale de la Seconde Guerre mondiale, ce véhicule léger 4x4 a révolutionné la mobilité militaire.",
   "origine": "/assets/drapeaux/drapeau-des-usa.jpg",
   "proprietaire": "Hedy",
@@ -287,12 +287,12 @@
   ],
 
    "images" : [
-      "/assets/vehicule/willys-mb.jpg",
-      "/assets/vehicule/willys-mb.jpg",
-    "/assets/vehicule/willys-mb.jpg",
-     "/assets/vehicule/willys-mb.jpg",
-     "/assets/vehicule/willys-mb.jpg",
-   "/assets/vehicule/willys-mb.jpg"
+      "/assets/vehicule/willys-mb.webp",
+      "/assets/vehicule/willys-mb.webp",
+      "/assets/vehicule/willys-mb.webp",
+      "/assets/vehicule/willys-mb.webp",
+     "/assets/vehicule/willys-mb.webp",
+     "/assets/vehicule/willys-mb.webp"
      
     ],
 
@@ -303,7 +303,7 @@
   "id": 9,
   "nom": "Willys MB Jeep",
   "categorie": "Jeep",
-  "image": "/assets/vehicule/jeep-glenn.jpg",
+  "image": "/assets/vehicule/jeep-glenn.webp",
   "description": "Le fer de lance de la mobilité alliée durant la Libération, ici dans sa configuration de pleine production de 1944.",
   "origine": "/assets/drapeaux/drapeau-des-usa.jpg",
   "proprietaire": "Glenn",
@@ -326,12 +326,12 @@
   ],
 
    "images" : [
-      "/assets/vehicule/jeep-glenn.jpg",
-      "/assets/vehicule/jeep-glenn.jpg",
-    "/assets/vehicule/jeep-glenn.jpg",
-     "/assets/vehicule/jeep-glenn.jpg",
-     "/assets/vehicule/jeep-glenn.jpg",
-   "/assets/vehicule/jeep-glenn.jpg"
+      "/assets/vehicule/jeep-glenn.webp",
+      "/assets/vehicule/jeep-glenn.webp",
+      "/assets/vehicule/jeep-glenn.webp",
+      "/assets/vehicule/jeep-glenn.webp",
+      "/assets/vehicule/jeep-glenn.webp",
+      "/assets/vehicule/jeep-glenn.webp"
      
     ],
   "texte": "En 1944, la Willys MB n'est plus seulement un véhicule, c'est une machine de guerre parfaitement rodée qui déferle sur les routes d'Europe. Cette version de 1944 intègre toutes les petites améliorations dictées par l'expérience du front : des supports d'outils optimisés, un éclairage 'blackout' perfectionné et une robustesse à toute épreuve. Elle est le symbole de l'industrie américaine tournant à plein régime pour la Libération. Du bocage normand aux ponts du Rhin, elle a transporté les plus grands généraux comme les simples soldats, se jouant de la boue et des décombres avec une agilité déconcertante. Sa présence sur le terrain était la garantie d'une liaison rapide et d'une polyvalence tactique qui a constamment pris l'ennemi de vitesse. Posséder un modèle de 1944, c'est détenir un morceau d'histoire ayant vécu les heures les plus décisives du second conflit mondial."
@@ -341,7 +341,7 @@
   "id": 10,
   "nom": "Harley-Davidson WLA",
   "categorie": "Moto",
-  "image": "/assets/vehicule/harley-alex.jpeg",
+  "image": "/assets/vehicule/harley-alex.webp",
   "description": "Surnommée 'The Liberator', cette moto robuste a servi sur tous les fronts pour les missions d'estafette et de reconnaissance.",
   "origine": "/assets/drapeaux/drapeau-des-usa.jpg",
   "proprietaire": "Alex",
@@ -363,18 +363,81 @@
   ],
 
   "images" : [
-      "/assets/vehicule/harley-alex.jpeg",
-      "/assets/vehicule/harley-alex.jpeg",
-      "/assets/vehicule/harley-alex.jpeg",
-      "/assets/vehicule/harley-alex.jpeg",
-      "/assets/vehicule/harley-alex.jpeg",
-      "/assets/vehicule/harley-alex.jpeg"
+      "/assets/vehicule/harley-alex.webp",
+      "/assets/vehicule/harley-alex.webp",
+      "/assets/vehicule/harley-alex.webp",
+      "/assets/vehicule/harley-alex.webp",
+      "/assets/vehicule/harley-alex.webp",
+      "/assets/vehicule/harley-alex.webp"
      
      
     ],
 
   "texte": "Éclaireur infatigable des colonnes alliées, la Harley-Davidson WLA a conquis ses galons de noblesse dans la boue et la poussière des champs de bataille. Conçue pour une fiabilité absolue, elle abandonne tout luxe pour se concentrer sur l'essentiel : porter les ordres prioritaires là où aucun véhicule lourd ne peut s'aventurer. Son moteur en V à soupapes latérales, reconnaissable à son martèlement caractéristique, est devenu le battement de cœur de la liberté retrouvée lors de l'entrée des troupes dans les villes libérées. Équipée de son fourreau en cuir pour le célèbre Thompson et de ses sacoches de toile, elle incarne l'esprit d'indépendance et d'audace des soldats de l'ombre. Aujourd'hui, chaque WLA encore en mouvement est un hommage vivant à la vitesse et au courage qui ont permis de maintenir le lien vital entre les unités au plus fort de la tourmente."
-}
+},
 
+{
+    "id": 11,
+    "nom": "Jeep Ford GPW",
+    "categorie": "Jeep",
+    "image": "/assets/vehicule/jeep-ford-alex.webp",
+    "description": "Jeep Américaine produite durant la Seconde Guerre Mondiale",
+    "origine" : "/assets/drapeaux/drapeau-des-usa.jpg",
+    "proprietaire" : "Alex",
+    "caracteristiques": {
+      "annee": 1941,
+      "moteur": "Ford L134 'Go Devil' ",
+      "cylindree" : "4 cylindres en ligne, soupapes latérales",
+      "puissance" : "60ch à 4000 tr/min",
+      "vitesse" : 105,
+      "poids": 1100,
+      "transmission" : "Warner T-90",
+      "conso" : "13l à 15l",
+      "autonomie" : 300
+    },
+    "equipements": ["éclairage de combat", "pare-brise rabattable"],
+    "images" : [
+      "/assets/vehicule/jeep-ford-alex.webp",
+      "/assets/vehicule/jeep-ford-alex.webp",
+      "/assets/vehicule/jeep-ford-alex.webp",
+      "/assets/vehicule/jeep-ford-alex.webp",
+      "/assets/vehicule/jeep-ford-alex.webp",
+      "/assets/vehicule/jeep-ford-alex.webp"
+    
+      
+    ],
+    "texte" : "Déployée sur tous les théâtres d'opérations entre 1941 et 1945, la Ford GPW incarne l'effort industriel colossal des États-Unis durant le second conflit mondial. Fruit d'une standardisation imposée par l'état-major, ce véhicule de reconnaissance a su s'imposer par sa polyvalence légendaire et sa capacité à franchir les terrains les plus hostiles, des sables d'Afrique du Nord aux forêts ardennaises. Si elle partage ses lignes avec la célèbre Willys, la version produite par Ford porte en elle l'ADN de la firme de Dearborn, avec ses méthodes de fabrication en grande série qui ont permis d'inonder les lignes de front. Surnommée la 'bonne à tout faire' des armées alliées, elle a servi de lien vital pour les transmissions, le transport d'officiers et l'évacuation rapide des blessés sous le feu. Aujourd'hui, posséder une GPW revient à détenir un fragment authentique de l'histoire, un témoin d'acier qui a survécu aux épreuves du temps pour devenir une icône culturelle mondiale. Sa silhouette basse et son allure robuste rappellent une époque où l'ingénierie devait répondre à l'urgence absolue de la liberté."
+  },
+
+  {
+  "id": 12,
+  "nom": "Waco CG-4A",
+  "categorie": "Planeur",
+  "image": "/assets/vehicule/planneur.webp",
+  "description": "Planeur de transport militaire américain le plus utilisé de la Seconde Guerre Mondiale",
+  "origine" : "/assets/drapeaux/drapeau-des-usa.jpg",
+  "proprietaire" : "Didier",
+  "caracteristiques": {
+    "annee": 1942,
+    "moteur": "Sans (Remorqué par C-47 Skytrain)",
+    "cylindree" : "N/A",
+    "puissance" : "N/A",
+    "vitesse" : 190,
+    "poids": 1769,
+    "transmission" : "N/A",
+    "conso" : "0l",
+    "autonomie" : 0
+  },
+  "equipements": ["nez relevable pour chargement", "double commande de vol", "structure en tubes d'acier et toile"],
+  "images" : [
+    "/assets/vehicule/planneur.webp",
+    "/assets/vehicule/planneur.webp",
+    "/assets/vehicule/planneur.webp",
+    "/assets/vehicule/planneur.webp",
+    "/assets/vehicule/planneur.webp"
+   
+  ],
+  "texte" : "Fer de lance des opérations aéroportées alliées, le Waco CG-4A 'Hadrian' incarne l'audace et le sacrifice des troupes du ciel lors du second conflit mondial. Conçu pour le transport de troupes et de matériel lourd, ce planeur en bois et toile, dépourvu de moteur, était remorqué par des Douglas C-47 avant d'être largué au cœur des lignes ennemies. Du débarquement de Normandie à l'opération Market Garden, en passant par la Sicile, le Waco a permis d'acheminer de manière totalement silencieuse des jeeps, des pièces d'artillerie et des sections entières d'infanterie sur des zones d'atterrissage improvisées et souvent fatales. Sa caractéristique la plus ingénieuse, son nez entièrement relevable, permettait un débarquement immédiat des troupes et du matériel dès l'impact au sol, une course contre la montre vitale sous le feu nourri de l'adversaire. Surnommé le 'cercueil volant' par ses équipages en raison de sa vulnérabilité extrême, il a pourtant été un outil stratégique indispensable au triomphe de la liberté. Aujourd'hui, les rares exemplaires préservés témoignent de l'héroïsme de ces pilotes de l'ombre qui s'élançaient vers l'inconnu, portés par le seul souffle du vent et le devoir d'accomplir l'impossible."
+}
 
 ]

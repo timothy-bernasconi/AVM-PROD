@@ -1,0 +1,65 @@
+@use '../../scss/mixins' as mixins;
+@use '../../scss/variables.scss' as *;
+
+
+
+.vehicules-page {
+  position: relative;
+  width: 100%;
+  padding: 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  border-top: 5px solid rgba(255, 255, 255, 0.566);
+  border-bottom: 5px solid rgba(255, 255, 255, 0.567);
+
+  img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(35%);
+  }
+
+  h2 {
+     @include mixins.h1-style;
+  }
+
+  h3 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 1.5rem;
+    
+  }
+
+  h3:hover{
+    color: rgb(213, 213, 213);
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .presentation {
+    max-width: 1000px;
+    margin: 0 auto 3rem auto;
+    text-align: center;
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: rgb(230, 230, 230);
+    }
+  }
+}
+
+@media (max-width : 990px) {
+  .vehicules-page {
+    h2, a {
+      text-align: center;
+    }
+  }
+}

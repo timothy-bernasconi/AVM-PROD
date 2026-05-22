@@ -1,0 +1,136 @@
+@use '../../scss/variables.scss';
+
+.header {
+  background-color: variables.$primary-green;
+  padding: 0px 50px;
+  border-bottom: 3px solid variables.$accent-gold;
+
+  .container {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    column-gap: 30px;
+  }
+
+
+  a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .header-logo img {
+    height: 95px;
+    width: auto;
+  }
+
+  .list {
+    ul {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    li {
+      color: variables.$white;
+      cursor: pointer;
+      font-weight: bold;
+      transition: color 0.3s;
+
+      &:hover {
+        color: variables.$hover-gold;
+      }
+    }
+  }
+
+  .social-media {
+    ul {
+      display: flex;
+      gap: 1.5rem;
+      list-style: none;
+      padding: 0;
+      margin: 0 4rem;
+    }
+
+    li {
+      color: variables.$white;
+      font-size: 1.5rem;
+      cursor: pointer;
+      transition: color 0.3s;
+
+      &:hover {
+        color: variables.$hover-gold;
+      }
+    }
+  }
+
+  
+  .menu-toggle {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: variables.$white;
+    cursor: pointer;
+    z-index: 10;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .header {
+     padding: 0 20px;
+  
+   
+
+    .menu-toggle {
+      display: block; 
+      grid-column: 3; 
+    }
+
+    .list, .social-media {
+      position: fixed;
+      top: 95px; 
+      left: -100%; 
+      width: 100%;
+      height: calc(100vh - 95px);
+      background-color: variables.$primary-green;
+      transition: 0.4s ease-in-out;
+      z-index: 5;
+      
+      &.open {
+        left: 0; 
+      }
+    }
+
+    .list {
+      ul {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        gap: 40px;
+        font-size: 1.5rem;
+      }
+    }
+
+    .social-media {
+      top: auto;
+      bottom: 0;
+      height: 100px;
+      justify-content: center;
+      background: none; 
+      
+      &.open {
+        left: 0;
+        display: flex;
+      }
+
+      ul {
+        margin: 0;
+      }
+    }
+  }
+}

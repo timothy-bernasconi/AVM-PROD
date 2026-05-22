@@ -1,0 +1,113 @@
+@use '../../scss/mixins' as mixins;
+@use "sass:color";
+@use '../../scss/variables.scss' as vars;
+
+
+.meetings-page {
+  position: relative;
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 80px 0;
+  border-top: 5px solid rgba(255, 255, 255, 0.566);
+  border-bottom: 5px solid rgba(255, 255, 255, 0.567);
+  
+
+ 
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+
+  .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(33, 33, 33, 0.703); 
+    z-index: 1;
+  }
+
+  .content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+
+    h2 {
+      @include mixins.h1-style;
+    }
+
+    .presentation {
+      max-width: 1000px;
+      text-align: center;
+      margin-bottom: 2rem;
+
+      p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        color: #ffffff;
+        text-align: center;
+      }
+    }
+  }
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.card {
+  width: 420px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+
+  img { width: 100%; height: 200px; object-fit: cover; }
+  h3 { font-size: 1.1rem; margin: 1.5rem 15px; min-height: 2.5rem; }
+
+  h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    color: #666;
+    gap: 8px;
+    margin: 0 0 12px;
+    i { color: vars.$accent-gold; }
+  }
+
+  button {
+    width: 100%;
+    background-color: vars.$accent-gold;
+    color: vars.$white;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background 0.3s;
+    &:hover { 
+      background: color.adjust(vars.$accent-gold, $lightness: -5%); 
+    }
+  }
+}
+
+@media (max-width :660px) {
+  .meetings-page {
+    text-align: center;
+  }
+}

@@ -162,7 +162,7 @@
 }
 
 .btn {
-    background: #902326;
+    background: $primary-green;
     color: #f8f9fa;
     padding: 1rem 2rem;
     border-radius: 50px;
@@ -177,8 +177,9 @@
     width: fit-content;
 
     &:hover {
-        background: #b82f29;
+        background: #ffffff00;
         transform: translateY(-2px);
+        border: 1px solid white;
         box-shadow: 0 6px 12px rgba(144, 35, 38, 0.2);
     }
 }
