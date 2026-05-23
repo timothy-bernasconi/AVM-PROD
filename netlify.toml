@@ -1,0 +1,4 @@
+Ini, TOML
+[build]
+  command = "pnpm build"
+  publish = ".next"
