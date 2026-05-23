@@ -1,9 +1,6 @@
 ﻿[build]
-  base = "avm"
-  command = "pnpm build"
+  command = "pnpm install && pnpm build"
   publish = ".next"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-  [plugins.inputs]
-    disableRuntime = true
