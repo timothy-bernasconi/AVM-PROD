@@ -11,7 +11,6 @@
   flex-direction: column;
   overflow: hidden;
 
-  
   .bgVideo {
     position: absolute;
     inset: 0;
@@ -19,12 +18,12 @@
     height: 100%;
     object-fit: cover;
     z-index: -1;
-    filter: brightness(37%); 
+    filter: brightness(37%);
   }
 
   .container {
     position: relative;
-    top : -2rem;
+    top: -2rem;
     height: 450px;
     max-width: 1200px;
     width: 90%;
@@ -39,31 +38,31 @@
     backdrop-filter: blur(10px);
   }
 
-  h1 {  
-    @include mixins.h1-style; 
-    font-size: 5rem;  
-    animation-duration: 0.7s; 
-    animation-name: slidein; 
+  h1 {
+    @include mixins.h1-style;
+    font-size: 5rem;
+    animation-duration: 0.7s;
+    animation-name: slidein;
     margin-top: -15px;
     text-align: center;
   }
 
-  h2 { 
-    font-size: 2rem; 
-    color: $accent-gold; 
-    border: none; 
-    margin: 0; 
-    animation-duration: 0.8s; 
-    animation-name: bounce; 
+  h2 {
+    font-size: 2rem;
+    color: $accent-gold;
+    border: none;
+    margin: 0;
+    animation-duration: 0.8s;
+    animation-name: bounce;
   }
 
-  p { 
-    font-size: 1.5rem; 
-    color: $white; 
-    max-width: 800px; 
-    margin: 0; 
-    animation-duration: 0.8s; 
-    animation-name: bounce; 
+  p {
+    font-size: 1.5rem;
+    color: $white;
+    max-width: 800px;
+    margin: 0;
+    animation-duration: 0.8s;
+    animation-name: bounce;
     text-align: center;
   }
 }
@@ -87,25 +86,25 @@
   transition: all 0.3s ease;
 }
 
-.full { 
-  background-color: $accent-gold; 
-  &:hover { 
-    opacity: 0.9; 
-    transform: translateY(-2px); 
+.full {
+  background-color: $accent-gold;
+  &:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
   }
 }
 
 .empty {
   background-color: transparent;
   border: 2px solid $white;
-  &:hover { 
-    background: rgba(255, 255, 255, 0.1); 
+  &:hover {
+    background: rgba(255, 255, 255, 0.1);
   }
 }
 
 @keyframes slidein {
-  from { margin-left: 100%; width: 300%; }
-  to { margin-left: 0%; width: 100%; }
+  from { opacity: 0; transform: translateX(30px); }
+  to { opacity: 1; transform: translateX(0); }
 }
 
 @keyframes bounce {
@@ -113,28 +112,42 @@
   to { transform: translateY(0px); }
 }
 
-@media (max-width:990px) {
-
+@media (max-width: 990px) {
   .home-page {
     padding: 0 2rem;
 
-  .container {
-    height: auto;
-    text-align: center;
-    padding: 50px 40px;
+    .container {
+      height: auto;
+      text-align: center;
+      padding: 50px 40px;
 
-    h1 {
-      font-size: 3.5rem;
+      h1 { font-size: 3.5rem; }
+      h2 { font-size: 1.5rem; }
+      p { font-size: 1.1rem; }
     }
-
-    h2 {
-      font-size: 1.5rem;
-    }
-
-    p {
-      font-size: 1.1rem;
-    }
-   
   }
 }
+
+@media (max-width: 480px) {
+  .home-page {
+    .container {
+      width: 95%;
+      padding: 30px 20px;
+
+      h1 { font-size: 2.5rem; }
+      h2 { font-size: 1.2rem; }
+      p { font-size: 1rem; }
+    }
+  }
+
+  .buttons {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20px;
+
+    .full, .empty {
+      width: 100%;
+      text-align: center;
+    }
+  }
 }
