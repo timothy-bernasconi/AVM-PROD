@@ -31,10 +31,10 @@ export default function PolitiqueConfidentialite() {
 
           <h2>1. Responsable du Traitement</h2>
           <p>
-            Le site internet est édité par l'association **[Nom de ton association]**, association non déclarée (dite « association de fait »).
+            Le site internet est édité par l'association AVM74, association non déclarée (dite « association de fait »).
             <br />
-            Le responsable du traitement des données personnelles est **[Ton Prénom/Nom ou celui du président]**, 
-            joignable à l'adresse e-mail suivante : <strong>[Ton Adresse E-mail de contact]</strong>.
+            Le responsable du traitement des données personnelles est Sam, 
+            joignable à l'adresse e-mail suivante : <strong>avm44@hotmail.fr</strong>.
           </p>
 
           <h2>2. Données Collectées</h2>
@@ -67,7 +67,7 @@ export default function PolitiqueConfidentialite() {
 
           <h2>6. Hébergement du Site</h2>
           <p>
-            Notre site est hébergé par **[Nom de ton hébergeur, ex: Vercel / Netlify / o2switch]**, dont les serveurs sont situés à **[Lieu des serveurs, ex: en France / au sein de l'Union Européenne]**. Cet hébergeur applique des standards stricts de sécurité conformes au RGPD.
+            Notre site est hébergé par Vercel , dont les serveurs sont situés au 340 S Lemon Ave, Walnut, CA 91789, États-Unis. Cet hébergeur applique des standards stricts de sécurité conformes au RGPD.
           </p>
 
           <h2>7. Vos Droits (RGPD)</h2>
@@ -79,7 +79,7 @@ export default function PolitiqueConfidentialite() {
             <li>Droit de rectification ou d'effacement.</li>
           </ul>
           <p>
-            Pour exercer ces droits, vous pouvez nous contacter directement à tout moment à l'adresse e-mail : <strong>[Ton Adresse E-mail de contact]</strong>.
+            Pour exercer ces droits, vous pouvez nous contacter directement à tout moment à l'adresse e-mail : <strong>avm74@hotmail.fr</strong>.
           </p>
         </section>
       </div>

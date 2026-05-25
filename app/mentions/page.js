@@ -27,20 +27,19 @@ export default function MentionsLegales() {
           <h2>1. Éditeur du Site</h2>
           <p>
             Le présent site internet est édité et géré par l'association de fait (association non déclarée) 
-            **[Nom de ton association]**.
+            AVM74.
             <br /><br />
-            <strong>Responsable de la publication :</strong> [Ton Prénom Nom ou celui du responsable]<br />
-            <strong>Adresse de contact :</strong> [Ton Adresse Postale (Optionnelle mais recommandée pour la LCEN)]<br />
-            <strong>Contact e-mail :</strong> [Ton Adresse E-mail de contact]
+            <strong>Responsable de la publication :</strong> Sam <br />
+            <strong>Contact e-mail :</strong> avm74@hotmail.fr
           </p>
 
           <h2>2. Hébergeur du Site</h2>
           <p>
             Le site internet est hébergé par la société :
             <br /><br />
-            <strong>[Nom de l'hébergeur, ex: Vercel Inc. / Hostinger / o2switch]</strong><br />
-            <strong>Adresse de l'hébergeur :</strong> [Adresse officielle de l'hébergeur (ex pour Vercel: 340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis)]<br />
-            <strong>Site internet de l'hébergeur :</strong> [Lien de leur site, ex: https://vercel.com]
+            <strong>Nom de l'hébergeur, ex: Vercel Inc</strong><br />
+            <strong>Adresse de l'hébergeur :</strong> Adresse officielle de l'hébergeur (340 S Lemon Ave, Walnut, CA 91789, États-Unis)<br />
+            <strong>Site internet de l'hébergeur :</strong> https://vercel.com
           </p>
 
           <h2>3. Propriété Intellectuelle</h2>
@@ -58,7 +57,7 @@ export default function MentionsLegales() {
 
           <h2>5. Contact</h2>
           <p>
-            Pour toute question, signalement de contenu inapproprié ou demande relative aux droits de propriété intellectuelle, vous pouvez nous écrire directement à : <strong>[Ton Adresse E-mail de contact]</strong>.
+            Pour toute question, signalement de contenu inapproprié ou demande relative aux droits de propriété intellectuelle, vous pouvez nous écrire directement à : <strong>avm74@hotmail.fr</strong>.
           </p>
 
         </section>
