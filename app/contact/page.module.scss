@@ -59,87 +59,30 @@
         background: #ffffff00;
     }
 
-    input[type="text"],
-    input[type="email"],
-    .selectField,
-    .textareaField {
-        width: 100% !important;
-        padding: 0.8rem 1rem;
-        border: 1px solid #e0e0e0;
-        border-radius: 8px;
-        font-size: 1rem;
-        background: #ffffff00;
-        transition: all 0.3s ease;
-        box-sizing: border-box !important;
+     input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  .textareaField {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #ffffff00;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    color: #f7f5f5;
 
-        &:focus {
-            outline: none;
-            border-color: #902326;
-            background-color: #fff;
-            box-shadow: 0 0 0 4px rgba(144, 35, 38, 0.1);
-        }
+    &:focus {
+      outline: none;
+      border-color: $primary-green;
+      background-color: #ffffff11;
+      box-shadow: 0 0 0 4px rgba(144, 35, 38, 0.1);
     }
+  }
 
-    .radioGroup {
-        display: flex;
-        flex-direction: column;
-        gap: 0.8rem;
-        margin: 0.5rem 0;
 
-        .radioTitle {
-            font-weight: 600;
-            color: #333;
-            font-size: 0.95rem;
-            text-transform: none;
-            letter-spacing: normal;
-        }
-
-        .radioOptions {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-
-        .radioItem {
-            display: flex;
-            flex-direction: row !important;
-            align-items: center;
-            gap: 8px;
-            cursor: pointer;
-            font-weight: 500 !important;
-            font-size: 0.9rem;
-            transition: color 0.2s ease;
-
-            &:hover { color: #902326; }
-
-            input[type="radio"] {
-                margin: 0;
-                cursor: pointer;
-                width: 18px;
-                height: 18px;
-                accent-color: #902326;
-            }
-
-            span {
-                color: inherit;
-                font-size: inherit;
-                text-transform: none;
-                letter-spacing: normal;
-                margin: 0;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .radioOptions {
-                flex-direction: column;
-                gap: 12px;
-                background: #f9f9f9;
-                padding: 1rem;
-                border-radius: 8px;
-            }
-        }
-    }
-
+   
     .selectField {
         cursor: pointer;
         appearance: none;
