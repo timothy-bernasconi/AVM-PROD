@@ -2,6 +2,8 @@
 import '../scss/main.scss';      
 import Header from '../app/components/Header';
 import Footer from '../app/components/Footer';
+import { Analytics } from "@vercel/analytics/next"
+
 
 export const metadata = {
   title: 'AVM 74',
@@ -31,7 +33,8 @@ export default function RootLayout({ children }) {
       <body>
         <Header />          
         <main>{children}</main> 
-        <Footer />            
+        <Footer />     
+        <Analytics />       
       </body>
     </html>
   );
